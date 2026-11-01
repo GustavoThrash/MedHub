@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="MedHub">
+<meta name="theme-color" content="#eef3fd"><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon-180.png">
+<title>MedHub</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#18213d;--mut:#6d7a99;--ac:#4f7cff;--ac2:#8b5cf6;--ok:#16b981;--bad:#f0506e}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+body{font-family:'Plus Jakarta Sans',-apple-system,system-ui,sans-serif;color:var(--ink);min-height:100vh;background:#f5f8ff;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(600px 420px at 8% 0,#cfe0ff,transparent 70%),radial-gradient(520px 420px at 95% 8%,#e3d4ff,transparent 70%),radial-gradient(640px 520px at 70% 100%,#c6f0ff,transparent 70%)}
+.gl{background:rgba(255,255,255,.55);backdrop-filter:blur(20px) saturate(1.7);-webkit-backdrop-filter:blur(20px) saturate(1.7);border:1px solid rgba(255,255,255,.85);border-radius:22px;box-shadow:0 10px 34px rgba(70,100,190,.13),inset 0 1px 0 #fff}
+.app{display:grid;grid-template-columns:238px 1fr;gap:18px;padding:16px;min-height:100vh}
+aside{position:sticky;top:16px;height:calc(100vh - 32px);padding:20px 14px;display:flex;flex-direction:column;gap:8px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:21px;padding:2px 8px 18px}
+.logo i{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--ac),var(--ac2));display:grid;place-items:center;color:#fff;font-style:normal;box-shadow:0 6px 16px rgba(79,124,255,.45)}
+nav{display:contents}
+nav button{display:flex;align-items:center;gap:12px;padding:13px 14px;border:1px solid transparent;border-radius:15px;background:transparent;font:600 14px inherit;font-family:inherit;color:var(--mut);cursor:pointer;transition:.25s;text-align:left}
+nav button span{font-size:18px}
+nav button:hover{background:rgba(255,255,255,.7);color:var(--ink);box-shadow:0 6px 18px rgba(79,124,255,.15);transform:translateX(3px)}
+nav button.on{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#fff;box-shadow:0 8px 22px rgba(79,124,255,.45),inset 0 1px 0 rgba(255,255,255,.5)}
+.bk{margin-top:auto;display:flex;gap:6px}
+.btn{border:0;border-radius:14px;padding:11px 18px;font:700 14px inherit;font-family:inherit;color:#fff;background:linear-gradient(135deg,var(--ac),var(--ac2));cursor:pointer;box-shadow:0 8px 20px rgba(79,124,255,.38),inset 0 1px 0 rgba(255,255,255,.45);transition:.2s;position:relative;overflow:hidden}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(79,124,255,.5)}.btn:active{transform:scale(.97)}
+.btn:after{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);transition:.6s}
+.btn:hover:after{left:130%}
+.btn.g{background:rgba(255,255,255,.7);color:var(--ink);box-shadow:0 4px 14px rgba(70,100,190,.12),inset 0 1px 0 #fff}
+.btn.sm{padding:7px 12px;font-size:12px}
+main{padding:8px 4px 90px;min-width:0}
+h1{font-size:30px;font-weight:800;letter-spacing:-.8px}h2{font-size:22px;font-weight:800;margin-bottom:10px}h3{font-size:16px;font-weight:700;margin-bottom:10px}
+.sub{color:var(--mut);font-size:13px;margin:4px 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px;margin-bottom:16px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{padding:20px;margin-bottom:16px}.grid .card{margin:0}
+.hov{cursor:pointer;transition:.25s}.hov:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(70,100,190,.22),0 0 0 2px var(--c),inset 0 1px 0 #fff}
+.ic{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font-size:23px;margin-bottom:12px;background:rgba(255,255,255,.8);box-shadow:0 6px 16px rgba(70,100,190,.15)}
+.big{font-size:30px;font-weight:800;letter-spacing:-1px;background:linear-gradient(135deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.bar{height:9px;border-radius:9px;background:rgba(120,140,190,.18);overflow:hidden;margin:6px 0 10px}.bar i{display:block;height:100%;border-radius:9px;transition:width .5s}
+.row{display:flex;justify-content:space-between;font-size:13px;font-weight:600}
+.chip{display:inline-block;font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;background:rgba(79,124,255,.12);color:var(--ac);margin-right:6px}
+.tp{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 4px;border-bottom:1px solid rgba(120,140,190,.15);font-size:14px}
+.tp label{display:flex;gap:10px;align-items:center;cursor:pointer}.tp.done label{text-decoration:line-through;color:var(--mut)}
+input[type=checkbox]{width:19px;height:19px;accent-color:var(--ac)}
+.x{border:0;background:rgba(240,80,110,.1);color:var(--bad);width:28px;height:28px;border-radius:9px;cursor:pointer;font-weight:700}.x:hover{background:var(--bad);color:#fff}
+input,select,textarea{font:500 14px inherit;font-family:inherit;color:var(--ink);padding:11px 14px;border-radius:13px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.75);box-shadow:inset 0 2px 6px rgba(70,100,190,.08);outline:0;width:100%}
+input:focus,select:focus,textarea:focus{box-shadow:0 0 0 3px rgba(79,124,255,.3)}
+.add,.bar2{display:flex;gap:10px;margin-top:14px;align-items:center}.bar2{margin:0 0 16px}.bar2 select{max-width:260px}
+.frm{display:grid;gap:10px}.frm .r{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tabs{display:inline-flex;gap:4px;padding:5px;border-radius:17px;margin:14px 0 18px;background:rgba(255,255,255,.5);border:1px solid #fff}
+.tabs button{border:0;background:transparent;padding:9px 18px;border-radius:13px;font:700 13px inherit;font-family:inherit;color:var(--mut);cursor:pointer}
+.tabs button.on{background:#fff;color:var(--ac);box-shadow:0 4px 12px rgba(70,100,190,.18)}
+.qq{font-size:18px;line-height:1.45;margin:12px 0 16px}
+.opt{display:flex;gap:12px;align-items:center;width:100%;text-align:left;padding:14px;margin-bottom:10px;border-radius:15px;border:1px solid #fff;background:rgba(255,255,255,.7);font:600 14px inherit;font-family:inherit;color:var(--ink);cursor:pointer;transition:.2s;box-shadow:0 4px 12px rgba(70,100,190,.08)}
+.opt:hover{transform:translateX(4px);box-shadow:0 8px 20px rgba(79,124,255,.2)}.opt b{width:28px;height:28px;border-radius:9px;background:rgba(79,124,255,.12);color:var(--ac);display:grid;place-items:center;flex:none}
+.opt.ok{background:rgba(22,185,129,.15);border-color:var(--ok)}.opt.ok b{background:var(--ok);color:#fff}.opt.bad{background:rgba(240,80,110,.12);border-color:var(--bad)}.opt.bad b{background:var(--bad);color:#fff}
+.fb{padding:14px;border-radius:14px;background:rgba(255,255,255,.7);font-size:14px;margin:6px 0 14px;line-height:1.5}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.cal .h{font-size:11px;font-weight:700;color:var(--mut);text-align:center;padding:4px}
+.day{min-height:62px;padding:7px;border-radius:14px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.9);font-size:13px;font-weight:700;cursor:pointer;transition:.2s}
+.day:hover{background:#fff;box-shadow:0 6px 16px rgba(79,124,255,.22);transform:translateY(-2px)}
+.day.today{border:2px solid var(--ac);box-shadow:0 0 0 4px rgba(79,124,255,.15)}
+.day i{display:inline-block;width:9px;height:9px;border-radius:50%;margin:5px 3px 0 0}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}.cd{font-weight:800;font-size:15px;margin-left:auto;padding-left:10px}
+.mh{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+@media(max-width:860px){
+.app{grid-template-columns:1fr;padding:12px;padding-bottom:0}
+aside{position:fixed;z-index:9;left:10px;right:10px;bottom:max(10px,env(safe-area-inset-bottom));top:auto;height:auto;flex-direction:row;padding:7px;border-radius:24px;gap:2px}
+.logo,.bk{display:none}nav{display:flex;flex:1;gap:2px}
+nav button{flex:1;flex-direction:column;gap:2px;padding:8px 2px;font-size:10.5px;justify-content:center;text-align:center}nav button:hover{transform:none}
+.two{grid-template-columns:1fr}.day{min-height:48px;padding:5px}h1{font-size:25px}main{padding-top:max(8px,env(safe-area-inset-top))}
+.frm .r{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body><div class="app">
+<aside class="gl"><div class="logo"><i>✚</i>MedHub</div>
+<nav><button data-v="home"><span>🏠</span>Início</button><button data-v="disc"><span>📚</span>Disciplinas</button><button data-v="q"><span>🧠</span>Questões</button><button data-v="cal"><span>🗓️</span>Calendário</button></nav>
+<div class="bk"><button class="btn g sm" data-a="ex">⬇ Backup</button><button class="btn g sm" data-a="im">⬆ Restaurar</button></div></aside>
+<main id="main"></main></div><input type="file" id="imp" accept=".json" hidden>
+<script>
+const D=[["Anatomia","🫀","#4f7cff"],["Histologia","🔬","#8b5cf6"],["Biologia","🧬","#16b981"],["Biofísica","⚡","#f59e0b"],["Psicologia Médica","🧠","#ec4899"],["Primeiros Auxílios","🩹","#ef4444"],["Língua Castellana","🇪🇸","#06b6d4"]];
+const TY=[["Prova","#e0446a"],["Entrega","#f59e0b"],["Seminário","#8b5cf6"],["Prática","#16b981"]];
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const td=new Date(new Date().toDateString()),dd=s=>Math.round((new Date(s+"T00:00")-td)/864e5);
+const MS=["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+function seed(){const T=["Planos e eixos|Sistema esquelético|Sistema muscular|Sistema cardiovascular","Tecido epitelial|Tecido conjuntivo|Tecido muscular|Tecido nervoso","Célula e organelas|Membrana plasmática|Ciclo celular|Genética básica","Bioeletricidade|Transporte e difusão|Termodinâmica|Biofísica da visão","Relação médico-paciente|Comunicação de notícias difíceis|Ética médica","Suporte básico de vida|Engasgo|Hemorragias e curativos|Queimaduras","Saludos y presentaciones|Verbos regulares|Anamnesis en español|Vocabulario médico"];
+return{tp:T.map(s=>s.split("|").map(t=>({t,d:0}))),st:D.map(()=>({ok:0,n:0})),ev:[],q:[{id:1,disc:2,q:"Qual mecanismo transporta glicose para dentro da célula a favor do gradiente, sem gasto de ATP?",o:["Bomba de sódio e potássio","Difusão facilitada por GLUT","Endocitose mediada por receptor"],c:1,e:"Os transportadores GLUT levam a glicose a favor do gradiente de concentração, sem consumir energia."}]}}
+const K="medhub1";let S;try{S=JSON.parse(localStorage.getItem(K))}catch(e){}S=S||seed();
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
+const db=new Promise(r=>{const q=indexedDB.open("medhub",1);q.onupgradeneeded=()=>q.result.createObjectStore("pdf",{keyPath:"id"});q.onsuccess=()=>r(q.result)});
+const tx=async(m,f)=>{const d=await db;return new Promise(r=>{const t=d.transaction("pdf",m),q=f(t.objectStore("pdf"));t.oncomplete=()=>r(q&&q.result)})};
+let view="home",open=null,qt="p",qf="a",cur=null,ans=null,cm=new Date(td.getFullYear(),td.getMonth(),1);
+const pct=i=>{const t=S.tp[i];return t.length?Math.round(t.filter(x=>x.d).length/t.length*100):0};
+const bar=(p,c)=>`<div class=bar><i style="width:${p}%;background:${c||"linear-gradient(90deg,var(--ac),var(--ac2))"}"></i></div>`;
+const opts=s=>D.map((d,i)=>`<option value=${i}${s==i?" selected":""}>${d[0]}</option>`).join("");
+const up=()=>S.ev.filter(x=>dd(x.date)>=0).sort((a,b)=>a.date.localeCompare(b.date));
+const evL=(l,del)=>l.length?l.map(x=>{const n=dd(x.date),c=TY[x.type][1];return `<div class=tp><span><i class=dot style="background:${c}"></i><b>${esc(x.t)}</b><br><small class=sub>${TY[x.type][0]}${x.disc!==""?" · "+D[x.disc][0]:""} · ${x.date.split("-").reverse().join("/")}</small></span><span class=cd style="color:${c}">${n==0?"Hoje":n<0?"passou":n+"d"}</span>${del?`<button class=x data-a=de data-i=${x.id}>✕</button>`:""}</div>`}).join(""):"<p class=sub>Nenhuma avaliação agendada. Adicione no Calendário.</p>";
+const pool=()=>S.q.filter(x=>qf=="a"||x.disc==qf);
+const V={
+home(){const all=Math.round(D.reduce((a,_,i)=>a+pct(i),0)/D.length),n=S.st.reduce((a,x)=>a+x.n,0),ok=S.st.reduce((a,x)=>a+x.ok,0),nx=up()[0];
+const st=[["Progresso geral",all+"%"],["Questões feitas",n],["Taxa de acerto",n?Math.round(ok/n*100)+"%":"–"],["Próxima avaliação",nx?(dd(nx.date)?dd(nx.date)+" dias":"Hoje"):"–"]];
+return `<h1>Olá! 👋</h1><p class=sub>Seu centro de estudos de Medicina · ${td.toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"})}</p>
+<div class=grid>${st.map(s=>`<div class="gl card"><p class=sub style="margin:0 0 6px">${s[0]}</p><div class=big>${s[1]}</div></div>`).join("")}</div>
+<div class=two><div class="gl card"><h3>Próximas avaliações</h3>${evL(up().slice(0,4))}</div><div class="gl card"><h3>Progresso por disciplina</h3>${D.map((d,i)=>`<div class=row><span>${d[1]} ${d[0]}</span><b>${pct(i)}%</b></div>${bar(pct(i),d[2])}`).join("")}</div></div>`},
+disc(){if(open!=null){const i=open,d=D[i],t=S.tp[i];return `<button class="btn g" data-a=back>← Voltar</button><div class="gl card" style="margin-top:14px"><h2>${d[1]} ${d[0]}</h2>${bar(pct(i),d[2])}<p class=sub>${t.filter(x=>x.d).length} de ${t.length} tópicos concluídos · ${pct(i)}%</p>${t.map((x,j)=>`<div class="tp${x.d?" done":""}"><label><input type=checkbox ${x.d?"checked":""} data-a=tg data-i=${j}>${esc(x.t)}</label><button class=x data-a=rt data-i=${j}>✕</button></div>`).join("")}<div class=add><input id=nt placeholder="Novo tópico ou aula…"><button class=btn data-a=at>Adicionar</button></div></div>`}
+return `<h1>Disciplinas</h1><p class=sub>Toque em uma disciplina para marcar o que você já estudou.</p><div class=grid>${D.map((d,i)=>`<div class="gl card hov" data-a=op data-i=${i} style="--c:${d[2]}"><div class=ic>${d[1]}</div><h3>${d[0]}</h3>${bar(pct(i),d[2])}<p class=sub style="margin:0">${pct(i)}% · ${S.tp[i].length} tópicos</p></div>`).join("")}</div>`},
+q(){return `<h1>Questões & PDFs</h1><div class=tabs>${[["p","Praticar"],["n","Adicionar"],["f","PDFs"]].map(([k,l])=>`<button class="${qt==k?"on":""}" data-a=qt data-k=${k}>${l}</button>`).join("")}</div>`+(qt=="p"?prac():qt=="n"?nova():pdfs())},
+cal(){const y=cm.getFullYear(),m=cm.getMonth(),f=new Date(y,m,1).getDay(),n=new Date(y,m+1,0).getDate();let c="";for(let i=0;i<f;i++)c+="<div></div>";
+for(let d=1;d<=n;d++){const s=iso(new Date(y,m,d));c+=`<div class="day${s==iso(td)?" today":""}" data-a=day data-d=${s}>${d}<br>${S.ev.filter(x=>x.date==s).map(x=>`<i style="background:${TY[x.type][1]}"></i>`).join("")}</div>`}
+const all=[...S.ev].sort((a,b)=>a.date.localeCompare(b.date));
+return `<h1>Calendário de provas</h1><p class=sub>${TY.map(t=>`<i class=dot style="background:${t[1]}"></i>${t[0]}`).join(" &nbsp; ")}</p>
+<div class="gl card"><div class=mh><button class="btn g sm" data-a=pm>‹</button><h3 style="margin:0">${MS[m]} ${y}</h3><button class="btn g sm" data-a=nm>›</button></div><div class=cal>${["D","S","T","Q","Q","S","S"].map(x=>`<div class=h>${x}</div>`).join("")}${c}</div></div>
+<div class=two><div class="gl card"><h3>Nova avaliação</h3><div class=frm><input id=et placeholder="Ex.: Prova N2 de Anatomia"><div class=r><select id=ed><option value="">Sem disciplina</option>${opts(-1)}</select><select id=ety>${TY.map((t,i)=>`<option value=${i}>${t[0]}</option>`).join("")}</select></div><input id=edt type=date value="${iso(td)}"><button class=btn data-a=ae>Salvar avaliação</button></div></div>
+<div class="gl card"><h3>Todas as avaliações</h3>${evL(all,1)}</div></div>`}};
+function prac(){const p=pool();if(!cur||!p.includes(cur))cur=p[Math.random()*p.length|0]||null;const q=cur;
+return `<div class="gl card"><div class=bar2><select id=qf><option value=a>Todas as disciplinas</option>${opts(qf)}</select><span class=sub style="margin:0;white-space:nowrap">${p.length} questões</span></div>`+(q?`<span class=chip>${D[q.disc][0]}</span><h3 class=qq>${esc(q.q)}</h3>${q.o.map((o,i)=>`<button class="opt${ans!=null?(i==q.c?" ok":i==ans?" bad":""):""}" data-a=an data-i=${i}><b>${"ABCDE"[i]}</b>${esc(o)}</button>`).join("")}${ans!=null?`<div class=fb>${ans==q.c?"✅ <b>Correto!</b>":"❌ <b>Incorreto.</b>"} ${esc(q.e||"")}</div><button class=btn data-a=nx>Próxima questão</button>`:""}`:`<p class=sub>Nenhuma questão nesta disciplina. Use a aba “Adicionar” para criar a primeira.</p>`)+`</div><div class="gl card"><h3>Desempenho por disciplina</h3>${D.map((d,i)=>{const s=S.st[i],p=s.n?Math.round(s.ok/s.n*100):0;return `<div class=row><span>${d[0]}</span><b>${s.n?p+"% de "+s.n:"–"}</b></div>`+bar(p,s.n&&p<50?"var(--bad)":d[2])}).join("")}</div>`}
+function nova(){return `<div class="gl card"><h3>Nova questão</h3><div class=frm><select id=nd>${opts(qf=="a"?0:qf)}</select><textarea id=nq rows=3 placeholder="Enunciado"></textarea>${"ABCD".split("").map((l,i)=>`<input id=no${i} placeholder="Alternativa ${l}${i>1?" (opcional)":""}">`).join("")}<div class=r><select id=nc>${"ABCD".split("").map((l,i)=>`<option value=${i}>Correta: ${l}</option>`).join("")}</select><input id=ne placeholder="Explicação (opcional)"></div><button class=btn data-a=sq>Salvar questão</button></div></div><p class=sub>${S.q.length} questões no banco · <a href="#" data-a=dq style="color:var(--bad)">apagar a questão atual</a></p>`}
+function pdfs(){setTimeout(lp);return `<div class="gl card"><h3>PDFs das matérias</h3><div class=bar2><select id=pd>${opts(0)}</select><label class=btn style="white-space:nowrap">+ Enviar PDF<input type=file id=pf accept="application/pdf" multiple hidden></label></div><div id=pl></div><p class=sub>Os PDFs ficam salvos só neste aparelho.</p></div>`}
+async function lp(){const e=$("#pl");if(!e)return;const l=(await tx("readonly",s=>s.getAll()))||[];e.innerHTML=l.length?l.sort((a,b)=>a.disc-b.disc).map(f=>`<div class=tp><span><span class=chip>${D[f.disc][0]}</span>${esc(f.name)}</span><span><button class="btn g sm" data-a=po data-i=${f.id}>Abrir</button> <button class=x data-a=pdl data-i=${f.id}>✕</button></span></div>`).join(""):"<p class=sub>Nenhum PDF ainda. Envie o primeiro acima.</p>"}
+function render(){$("#main").innerHTML=V[view]();document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v==view))}
+const v=id=>$("#"+id).value.trim();
+const A={
+op:d=>{open=+d.i;render()},back:()=>{open=null;render()},tg:d=>{const t=S.tp[open][d.i];t.d=t.d?0:1;save();render()},
+rt:d=>{S.tp[open].splice(d.i,1);save();render()},at:()=>{if(!v("nt"))return;S.tp[open].push({t:v("nt"),d:0});save();render()},
+qt:d=>{qt=d.k;render()},an:d=>{if(ans!=null)return;ans=+d.i;const s=S.st[cur.disc];s.n++;if(ans==cur.c)s.ok++;save();render()},nx:()=>{cur=null;ans=null;render()},
+sq:()=>{const o=[0,1,2,3].map(i=>v("no"+i)).filter(Boolean);if(!v("nq")||o.length<2||!v("no"+$("#nc").value))return alert("Preencha o enunciado, ao menos 2 alternativas e marque uma correta que esteja preenchida.");
+S.q.push({id:Date.now(),disc:+$("#nd").value,q:v("nq"),o:[0,1,2,3].map(i=>v("no"+i)).filter((x,i)=>x||i<2),c:+$("#nc").value,e:v("ne")});save();qt="p";cur=S.q[S.q.length-1];ans=null;render()},
+dq:e=>{if(cur&&confirm("Apagar a questão atual da aba Praticar?")){S.q=S.q.filter(x=>x!==cur);cur=null;save();qt="p";render()}},
+po:async d=>{const w=window.open("","_blank"),f=await tx("readonly",s=>s.get(+d.i));if(f)w.location=URL.createObjectURL(f.blob);else w.close()},
+pdl:async d=>{if(confirm("Remover este PDF?")){await tx("readwrite",s=>s.delete(+d.i));lp()}},
+pm:()=>{cm=new Date(cm.getFullYear(),cm.getMonth()-1,1);render()},nm:()=>{cm=new Date(cm.getFullYear(),cm.getMonth()+1,1);render()},
+day:d=>{$("#edt").value=d.d;$("#et").focus()},de:d=>{S.ev=S.ev.filter(x=>x.id!=d.i);save();render()},
+ae:()=>{if(!v("et")||!v("edt"))return alert("Informe o título e a data.");S.ev.push({id:Date.now(),t:v("et"),disc:$("#ed").value,date:v("edt"),type:+$("#ety").value});save();render()},
+ex:()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(S)],{type:"application/json"}));a.download="medhub-backup-"+iso(td)+".json";a.click()},im:()=>$("#imp").click()};
+document.addEventListener("click",e=>{const n=e.target.closest("nav button");if(n){view=n.dataset.v;open=null;render();return}const b=e.target.closest("[data-a]");if(!b||!A[b.dataset.a])return;e.preventDefault();A[b.dataset.a](b.dataset,e)});
+document.addEventListener("change",async e=>{const t=e.target;if(t.id=="qf"){qf=t.value;cur=null;ans=null;render()}
+if(t.id=="pf"){const d=+$("#pd").value;for(const f of t.files)await tx("readwrite",s=>s.put({id:Date.now()+Math.random(),disc:d,name:f.name,blob:f}));lp()}
+if(t.id=="imp"){const f=t.files[0];if(!f)return;try{const j=JSON.parse(await f.text());if(!j.tp||!j.q)throw 0;S=j;save();render();alert("Backup restaurado!")}catch(x){alert("Arquivo de backup inválido.")}t.value=""}});
+render();if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script></body></html>
