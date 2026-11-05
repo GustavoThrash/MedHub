@@ -1,0 +1,2542 @@
+[
+ {
+  "id": 1,
+  "disc": 2,
+  "q": "Qual mecanismo transporta glicose para dentro da célula a favor do gradiente, sem gasto de ATP?",
+  "o": [
+   "Bomba de sódio e potássio",
+   "Difusão facilitada por GLUT",
+   "Endocitose mediada por receptor"
+  ],
+  "c": 1,
+  "e": "Os transportadores GLUT levam a glicose a favor do gradiente de concentração, sem consumir energia."
+ },
+ {
+  "id": 1793863042393,
+  "disc": 3,
+  "q": "1. ¿Qué músculo se contrae durante la inspiración?",
+  "o": [
+   "A) Intercostales internos",
+   "B) Diafragma",
+   "C) Estómago",
+   "D) Pectoral mayor"
+  ],
+  "c": 1,
+  "e": "O diafragma se contrai durante a inspiração para descer e aumentar o volume da cavidade torácica, diminuindo a pressão dentro dos pulmões. Assim, o ar entra nos pulmões.  Para memorizar: contração = diafragma desce = pulmões expandem = ar entra."
+ },
+ {
+  "id": 1794000000001,
+  "disc": 3,
+  "q": "¿Qué sucede cuando el diafragma se contrae?",
+  "o": [
+   "Disminuye el volumen torácico",
+   "Aumenta el volumen torácico",
+   "Se detiene la respiración",
+   "Disminuye la entrada de aire"
+  ],
+  "c": 1,
+  "e": "Al contraerse, el diafragma desciende y aumenta el volumen de la cavidad torácica, facilitando la inspiración."
+ },
+ {
+  "id": 1794000000002,
+  "disc": 3,
+  "q": "¿Cómo se llama el volumen de aire que entra y sale de los pulmones durante una respiración normal?",
+  "o": [
+   "Volumen residual",
+   "Volumen corriente",
+   "Capacidad vital",
+   "Volumen de reserva espiratoria"
+  ],
+  "c": 1,
+  "e": "El volumen corriente o tidal es el aire movilizado en una respiración tranquila."
+ },
+ {
+  "id": 1794000000003,
+  "disc": 3,
+  "q": "¿Cuál es la función principal del sistema respiratorio?",
+  "o": [
+   "Transportar nutrientes",
+   "Realizar el intercambio de oxígeno y dióxido de carbono",
+   "Producir hormonas",
+   "Regular la presión arterial"
+  ],
+  "c": 1,
+  "e": "El sistema respiratorio incorpora oxígeno y elimina dióxido de carbono mediante el intercambio gaseoso."
+ },
+ {
+  "id": 1794000000004,
+  "disc": 3,
+  "q": "El diafragma se relaja durante la inspiración.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "Durante la inspiración normal, el diafragma se contrae y desciende."
+ },
+ {
+  "id": 1794000000005,
+  "disc": 3,
+  "q": "Durante la espiración normal, el diafragma se relaja.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La relajación del diafragma permite que ascienda y contribuye a la salida de aire."
+ },
+ {
+  "id": 1794000000006,
+  "disc": 3,
+  "q": "El intercambio gaseoso ocurre principalmente en los alvéolos pulmonares.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Los alvéolos están rodeados de capilares y constituyen el principal sitio de intercambio gaseoso."
+ },
+ {
+  "id": 1794000000007,
+  "disc": 3,
+  "q": "¿Qué estructura del sistema nervioso regula principalmente la temperatura corporal?",
+  "o": [
+   "Cerebelo",
+   "Hipotálamo",
+   "Tálamo",
+   "Bulbo raquídeo"
+  ],
+  "c": 1,
+  "e": "El hipotálamo, especialmente el área preóptica/anterior, integra señales térmicas y coordina las respuestas."
+ },
+ {
+  "id": 1794000000008,
+  "disc": 3,
+  "q": "¿Qué es la febrícula?",
+  "o": [
+   "Disminución de la temperatura corporal",
+   "Elevación ligera de la temperatura corporal",
+   "Temperatura corporal extremadamente baja",
+   "Ausencia de regulación térmica"
+  ],
+  "c": 1,
+  "e": "La febrícula es una elevación leve de la temperatura corporal; el rango exacto puede variar según el criterio clínico."
+ },
+ {
+  "id": 1794000000009,
+  "disc": 3,
+  "q": "¿Cuál es la principal función del sudor en la termorregulación?",
+  "o": [
+   "Aumentar la temperatura corporal",
+   "Producir energía",
+   "Perder calor mediante la evaporación",
+   "Aumentar la presión arterial"
+  ],
+  "c": 2,
+  "e": "Cuando el sudor se evapora, absorbe calor de la superficie corporal y favorece el enfriamiento."
+ },
+ {
+  "id": 1794000000010,
+  "disc": 3,
+  "q": "¿Cuál de las siguientes NO es una forma básica de transferencia de calor?",
+  "o": [
+   "Radiación",
+   "Conducción",
+   "Convección",
+   "Sudoración"
+  ],
+  "c": 3,
+  "e": "Las formas físicas clásicas de transferencia son conducción, convección y radiación. La sudoración facilita la pérdida de calor por evaporación."
+ },
+ {
+  "id": 1794000000011,
+  "disc": 3,
+  "q": "¿Cuál de los siguientes factores puede aumentar el metabolismo basal?",
+  "o": [
+   "Hipertiroidismo",
+   "Hipotiroidismo",
+   "Disminución de la actividad tiroidea",
+   "Disminución de la actividad metabólica"
+  ],
+  "c": 0,
+  "e": "El exceso de hormonas tiroideas acelera numerosos procesos metabólicos y puede elevar el metabolismo basal."
+ },
+ {
+  "id": 1794000000012,
+  "disc": 3,
+  "q": "¿Cuál es la función del metabolismo basal?",
+  "o": [
+   "Medir únicamente la actividad física",
+   "Mantener las funciones vitales en reposo",
+   "Producir calor solamente durante el ejercicio",
+   "Medir la temperatura externa"
+  ],
+  "c": 1,
+  "e": "El metabolismo basal representa la energía necesaria para mantener las funciones vitales en condiciones de reposo."
+ },
+ {
+  "id": 1794000000013,
+  "disc": 3,
+  "q": "El hipotálamo participa en la regulación de la temperatura corporal.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "El hipotálamo integra información térmica y coordina sudoración, vasomotricidad y otras respuestas."
+ },
+ {
+  "id": 1794000000014,
+  "disc": 3,
+  "q": "La sudoración ayuda a perder calor mediante la evaporación.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La evaporación del agua del sudor consume calor de la piel."
+ },
+ {
+  "id": 1794000000015,
+  "disc": 3,
+  "q": "La radiación necesita contacto directo entre dos cuerpos para transferir calor.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "La radiación transfiere energía mediante ondas electromagnéticas y no requiere contacto directo."
+ },
+ {
+  "id": 1794000000016,
+  "disc": 3,
+  "q": "El hipertiroidismo puede aumentar el metabolismo basal.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "El aumento de T3 y T4 suele incrementar la actividad metabólica."
+ },
+ {
+  "id": 1794000000017,
+  "disc": 3,
+  "q": "El tálamo es el principal centro regulador de la temperatura corporal.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "El principal centro de termorregulación es el hipotálamo, no el tálamo."
+ },
+ {
+  "id": 1794000000018,
+  "disc": 3,
+  "q": "¿Qué es la corriente eléctrica?",
+  "o": [
+   "Movimiento desordenado de moléculas",
+   "Movimiento ordenado de cargas eléctricas",
+   "Producción de calor",
+   "Ausencia de cargas eléctricas"
+  ],
+  "c": 1,
+  "e": "La corriente eléctrica es el flujo ordenado de carga eléctrica a través de un material."
+ },
+ {
+  "id": 1794000000019,
+  "disc": 3,
+  "q": "¿Cuál es la unidad de resistencia eléctrica?",
+  "o": [
+   "Voltio",
+   "Amperio",
+   "Ohmio",
+   "Vatio"
+  ],
+  "c": 2,
+  "e": "La resistencia eléctrica se mide en ohmios, cuyo símbolo es Ω."
+ },
+ {
+  "id": 1794000000020,
+  "disc": 3,
+  "q": "¿Qué ley relaciona la tensión, la corriente y la resistencia eléctrica?",
+  "o": [
+   "Ley de Boyle",
+   "Ley de Ohm",
+   "Ley de Newton",
+   "Ley de Joule"
+  ],
+  "c": 1,
+  "e": "La Ley de Ohm establece la relación entre diferencia de potencial, corriente y resistencia."
+ },
+ {
+  "id": 1794000000021,
+  "disc": 3,
+  "q": "¿Cuál es la fórmula de la Ley de Ohm?",
+  "o": [
+   "V = R × I",
+   "P = V × I",
+   "F = m × a",
+   "P × V = constante"
+  ],
+  "c": 0,
+  "e": "La tensión es igual al producto de la resistencia por la intensidad de corriente: V = R × I."
+ },
+ {
+  "id": 1794000000022,
+  "disc": 3,
+  "q": "¿Qué establece el efecto Joule?",
+  "o": [
+   "La electricidad se transforma en calor",
+   "El calor se transforma siempre en luz",
+   "La resistencia desaparece",
+   "La corriente deja de circular"
+  ],
+  "c": 0,
+  "e": "El efecto Joule es la conversión de energía eléctrica en energía térmica al circular corriente por una resistencia."
+ },
+ {
+  "id": 1794000000023,
+  "disc": 3,
+  "q": "¿Qué sucede con la resistencia eléctrica de la piel cuando está húmeda?",
+  "o": [
+   "Aumenta",
+   "Disminuye",
+   "No cambia",
+   "Desaparece completamente"
+  ],
+  "c": 1,
+  "e": "La humedad suele reducir la resistencia de la piel y facilitar el paso de corriente."
+ },
+ {
+  "id": 1794000000024,
+  "disc": 3,
+  "q": "¿Qué puede provocar una corriente eléctrica suficientemente intensa que atraviesa el corazón?",
+  "o": [
+   "Fibrilación ventricular",
+   "Aumento de la audición",
+   "Disminución de la presión atmosférica",
+   "Aumento del volumen pulmonar"
+  ],
+  "c": 0,
+  "e": "Una corriente que atraviesa el tórax puede alterar la actividad eléctrica cardíaca y desencadenar fibrilación ventricular."
+ },
+ {
+  "id": 1794000000025,
+  "disc": 3,
+  "q": "El ohmio es la unidad de resistencia eléctrica.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La resistencia eléctrica se expresa en ohmios (Ω)."
+ },
+ {
+  "id": 1794000000026,
+  "disc": 3,
+  "q": "La corriente eléctrica es el movimiento ordenado de cargas.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La corriente corresponde al flujo neto de cargas eléctricas."
+ },
+ {
+  "id": 1794000000027,
+  "disc": 3,
+  "q": "La piel húmeda generalmente presenta mayor resistencia eléctrica que la piel seca.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "La humedad normalmente disminuye la resistencia eléctrica de la piel."
+ },
+ {
+  "id": 1794000000028,
+  "disc": 3,
+  "q": "El efecto Joule produce calor cuando circula corriente por una resistencia.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La energía eléctrica disipada en una resistencia se transforma en calor."
+ },
+ {
+  "id": 1794000000029,
+  "disc": 3,
+  "q": "La Ley de Ohm relaciona tensión, resistencia e intensidad de corriente.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La relación básica es V = R × I."
+ },
+ {
+  "id": 1794000000030,
+  "disc": 3,
+  "q": "¿Qué es el electromagnetismo?",
+  "o": [
+   "Estudio exclusivo del calor",
+   "Relación entre los fenómenos eléctricos y magnéticos",
+   "Estudio de los sonidos",
+   "Estudio de la presión atmosférica"
+  ],
+  "c": 1,
+  "e": "El electromagnetismo estudia los fenómenos eléctricos y magnéticos y la relación entre ellos."
+ },
+ {
+  "id": 1794000000031,
+  "disc": 3,
+  "q": "¿Cómo se propagan las ondas electromagnéticas?",
+  "o": [
+   "Necesitan siempre un medio material",
+   "Solamente se propagan en líquidos",
+   "Pueden propagarse en el vacío",
+   "Solamente se propagan en sólidos"
+  ],
+  "c": 2,
+  "e": "Las ondas electromagnéticas no necesitan un medio material y pueden viajar por el vacío."
+ },
+ {
+  "id": 1794000000032,
+  "disc": 3,
+  "q": "¿Cuál de las siguientes es una característica de las ondas electromagnéticas?",
+  "o": [
+   "No transportan energía",
+   "Necesitan aire para propagarse",
+   "Transportan energía",
+   "Son siempre ondas sonoras"
+  ],
+  "c": 2,
+  "e": "Las ondas electromagnéticas transportan energía y pueden propagarse en el vacío."
+ },
+ {
+  "id": 1794000000033,
+  "disc": 3,
+  "q": "¿Qué tipo de onda es una onda electromagnética?",
+  "o": [
+   "Mecánica",
+   "Electromagnética transversal",
+   "Sonora longitudinal",
+   "Exclusivamente longitudinal"
+  ],
+  "c": 1,
+  "e": "En el modelo clásico, los campos eléctrico y magnético oscilan perpendicularmente a la dirección de propagación."
+ },
+ {
+  "id": 1794000000034,
+  "disc": 3,
+  "q": "¿Qué velocidad alcanzan las ondas electromagnéticas en el vacío?",
+  "o": [
+   "340 m/s",
+   "1.500 m/s",
+   "Aproximadamente 300.000 km/s",
+   "100 km/s"
+  ],
+  "c": 2,
+  "e": "En el vacío se propagan a la velocidad de la luz, aproximadamente 3 × 10⁸ m/s."
+ },
+ {
+  "id": 1794000000035,
+  "disc": 3,
+  "q": "¿Cuál de las siguientes ondas es electromagnética?",
+  "o": [
+   "Sonido",
+   "Ultrasonido",
+   "Luz visible",
+   "Onda en el agua"
+  ],
+  "c": 2,
+  "e": "La luz visible es una forma de radiación electromagnética; sonido y ultrasonido son ondas mecánicas."
+ },
+ {
+  "id": 1794000000036,
+  "disc": 3,
+  "q": "Las ondas electromagnéticas pueden propagarse en el vacío.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "No necesitan un medio material para propagarse."
+ },
+ {
+  "id": 1794000000037,
+  "disc": 3,
+  "q": "Las ondas electromagnéticas necesitan aire para propagarse.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "Pueden propagarse incluso en el vacío."
+ },
+ {
+  "id": 1794000000038,
+  "disc": 3,
+  "q": "Las ondas electromagnéticas transportan energía.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Transportan energía y cantidad de movimiento."
+ },
+ {
+  "id": 1794000000039,
+  "disc": 3,
+  "q": "La luz visible forma parte del espectro electromagnético.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La luz visible es una región del espectro electromagnético."
+ },
+ {
+  "id": 1794000000040,
+  "disc": 3,
+  "q": "El sonido y las ondas electromagnéticas son exactamente el mismo tipo de onda.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "El sonido es mecánico y necesita un medio; las ondas electromagnéticas pueden propagarse en el vacío."
+ },
+ {
+  "id": 1794000000041,
+  "disc": 3,
+  "q": "¿Qué tipo de radiación son los rayos X?",
+  "o": [
+   "Ondas mecánicas",
+   "Radiación electromagnética ionizante",
+   "Ondas sonoras",
+   "Radiación infrarroja"
+  ],
+  "c": 1,
+  "e": "Los rayos X son radiación electromagnética con energía suficiente para ionizar la materia."
+ },
+ {
+  "id": 1794000000042,
+  "disc": 3,
+  "q": "¿Cuál es una de las principales aplicaciones de los rayos X?",
+  "o": [
+   "Medición de sonidos",
+   "Diagnóstico por imágenes",
+   "Producción de sudor",
+   "Regulación de la temperatura"
+  ],
+  "c": 1,
+  "e": "Los rayos X permiten obtener imágenes de estructuras internas, especialmente huesos y tórax."
+ },
+ {
+  "id": 1794000000043,
+  "disc": 3,
+  "q": "¿Qué significa que una radiación sea ionizante?",
+  "o": [
+   "No tiene energía",
+   "Puede producir ionización de átomos o moléculas",
+   "No interactúa con la materia",
+   "Solo produce sonidos"
+  ],
+  "c": 1,
+  "e": "Una radiación ionizante tiene energía suficiente para liberar electrones de átomos o moléculas."
+ },
+ {
+  "id": 1794000000044,
+  "disc": 3,
+  "q": "¿Cuáles son dos categorías de efectos biológicos según a quién afectan?",
+  "o": [
+   "Térmicos y acústicos",
+   "Somáticos y hereditarios",
+   "Mecánicos y eléctricos",
+   "Visuales y auditivos"
+  ],
+  "c": 1,
+  "e": "Los efectos somáticos afectan al individuo expuesto; los hereditarios se relacionan con alteraciones transmisibles a la descendencia."
+ },
+ {
+  "id": 1794000000045,
+  "disc": 3,
+  "q": "¿Cómo se clasifican los efectos biológicos según su relación con la dosis?",
+  "o": [
+   "Deterministas y estocásticos",
+   "Sonoros y luminosos",
+   "Térmicos y mecánicos",
+   "Eléctricos y magnéticos"
+  ],
+  "c": 0,
+  "e": "Los efectos deterministas tienen un umbral; para los estocásticos aumenta la probabilidad con la dosis."
+ },
+ {
+  "id": 1794000000046,
+  "disc": 3,
+  "q": "¿Qué tipo de radiación se utiliza principalmente para producir calor superficial en determinados tratamientos?",
+  "o": [
+   "Infrarroja",
+   "Rayos X",
+   "Radiación gamma",
+   "Ultravioleta ionizante"
+  ],
+  "c": 0,
+  "e": "La radiación infrarroja se absorbe superficialmente y puede producir calentamiento de los tejidos."
+ },
+ {
+  "id": 1794000000047,
+  "disc": 3,
+  "q": "¿Las microondas pueden utilizarse con fines terapéuticos?",
+  "o": [
+   "No, nunca",
+   "Sí, en determinados tratamientos y bajo supervisión profesional",
+   "Solamente para producir imágenes óseas",
+   "Solamente para escuchar sonidos"
+  ],
+  "c": 1,
+  "e": "Las microondas pueden emplearse en modalidades de diatermia para producir calentamiento controlado."
+ },
+ {
+  "id": 1794000000048,
+  "disc": 3,
+  "q": "Los rayos X son radiaciones electromagnéticas ionizantes.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Los rayos X son ondas electromagnéticas ionizantes."
+ },
+ {
+  "id": 1794000000049,
+  "disc": 3,
+  "q": "Los efectos estocásticos tienen una probabilidad que puede aumentar con la dosis.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "En los efectos estocásticos aumenta la probabilidad de aparición al aumentar la dosis."
+ },
+ {
+  "id": 1794000000050,
+  "disc": 3,
+  "q": "Los efectos somáticos afectan directamente al individuo expuesto.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Se manifiestan en la persona que recibió la exposición."
+ },
+ {
+  "id": 1794000000051,
+  "disc": 3,
+  "q": "La radiación infrarroja puede producir efectos térmicos.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La absorción de infrarrojos puede aumentar la temperatura de los tejidos."
+ },
+ {
+  "id": 1794000000052,
+  "disc": 3,
+  "q": "Las microondas son ondas mecánicas.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "Las microondas son ondas electromagnéticas."
+ },
+ {
+  "id": 1794000000053,
+  "disc": 3,
+  "q": "Los rayos X se utilizan para estudiar estructuras internas del cuerpo.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La radiografía usa la diferente atenuación de rayos X por los tejidos para formar imágenes."
+ },
+ {
+  "id": 1794000000054,
+  "disc": 3,
+  "q": "¿Qué es el sonido?",
+  "o": [
+   "Una onda electromagnética",
+   "Una onda mecánica producida por vibraciones",
+   "Una corriente eléctrica",
+   "Una radiación ionizante"
+  ],
+  "c": 1,
+  "e": "El sonido es una perturbación mecánica producida por vibraciones y requiere un medio material."
+ },
+ {
+  "id": 1794000000055,
+  "disc": 3,
+  "q": "¿El sonido puede propagarse en el vacío?",
+  "o": [
+   "Sí",
+   "No",
+   "Solamente a temperaturas altas",
+   "Solamente con luz"
+  ],
+  "c": 1,
+  "e": "El sonido necesita partículas materiales que transmitan la vibración; en el vacío no se propaga."
+ },
+ {
+  "id": 1794000000056,
+  "disc": 3,
+  "q": "¿De qué depende la velocidad del sonido?",
+  "o": [
+   "Del medio de propagación y de sus condiciones",
+   "Solamente del color del objeto",
+   "Solamente de la intensidad",
+   "De la luz ambiental"
+  ],
+  "c": 0,
+  "e": "La velocidad del sonido depende de las propiedades del medio, como elasticidad, densidad y temperatura."
+ },
+ {
+  "id": 1794000000057,
+  "disc": 3,
+  "q": "¿Qué sucede con la velocidad del sonido en el aire cuando aumenta la temperatura?",
+  "o": [
+   "Disminuye",
+   "Aumenta",
+   "Permanece siempre constante",
+   "Desaparece"
+  ],
+  "c": 1,
+  "e": "En el aire, la velocidad del sonido generalmente aumenta al elevarse la temperatura."
+ },
+ {
+  "id": 1794000000058,
+  "disc": 3,
+  "q": "¿Cuál es la frecuencia aproximada del límite superior de audición humana?",
+  "o": [
+   "20 Hz",
+   "200 Hz",
+   "2.000 Hz",
+   "20.000 Hz"
+  ],
+  "c": 3,
+  "e": "El intervalo auditivo humano típico se aproxima a 20 Hz–20.000 Hz, aunque varía con la edad y la persona."
+ },
+ {
+  "id": 1794000000059,
+  "disc": 3,
+  "q": "¿Qué son los ultrasonidos?",
+  "o": [
+   "Sonidos inferiores a 20 Hz",
+   "Sonidos superiores a 20.000 Hz",
+   "Sonidos audibles de baja frecuencia",
+   "Ondas electromagnéticas"
+  ],
+  "c": 1,
+  "e": "Los ultrasonidos tienen frecuencias por encima del límite superior aproximado de audición humana."
+ },
+ {
+  "id": 1794000000060,
+  "disc": 3,
+  "q": "¿Qué representa la amplitud de una onda sonora?",
+  "o": [
+   "La distancia entre dos crestas",
+   "La máxima separación respecto a la posición de equilibrio",
+   "El tiempo de una oscilación",
+   "La cantidad de ciclos por segundo"
+  ],
+  "c": 1,
+  "e": "La amplitud es el máximo desplazamiento de la onda respecto a su posición de equilibrio."
+ },
+ {
+  "id": 1794000000061,
+  "disc": 3,
+  "q": "¿Qué representa la frecuencia?",
+  "o": [
+   "El número de ciclos por segundo",
+   "La distancia entre dos crestas",
+   "La velocidad de la luz",
+   "El tiempo total de propagación"
+  ],
+  "c": 0,
+  "e": "La frecuencia expresa cuántos ciclos ocurren por segundo y se mide en hertz (Hz)."
+ },
+ {
+  "id": 1794000000062,
+  "disc": 3,
+  "q": "¿Qué es el período de una onda?",
+  "o": [
+   "La cantidad de energía",
+   "El tiempo necesario para completar un ciclo",
+   "La altura de la cresta",
+   "La distancia entre dos valles"
+  ],
+  "c": 1,
+  "e": "El período es el tiempo que tarda una oscilación completa; es inversamente proporcional a la frecuencia."
+ },
+ {
+  "id": 1794000000063,
+  "disc": 3,
+  "q": "¿Qué es la longitud de onda?",
+  "o": [
+   "Distancia entre dos crestas consecutivas",
+   "Tiempo de una vibración",
+   "Número de ciclos por segundo",
+   "Intensidad del sonido"
+  ],
+  "c": 0,
+  "e": "La longitud de onda es la distancia entre dos puntos consecutivos que están en la misma fase, como dos crestas."
+ },
+ {
+  "id": 1794000000064,
+  "disc": 3,
+  "q": "La velocidad del sonido es siempre constante, independientemente de la temperatura.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "La velocidad del sonido varía con el medio y sus condiciones; en el aire aumenta con la temperatura."
+ },
+ {
+  "id": 1794000000065,
+  "disc": 3,
+  "q": "El sonido necesita un medio material para propagarse.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "El sonido es una onda mecánica y no se propaga en el vacío."
+ },
+ {
+  "id": 1794000000066,
+  "disc": 3,
+  "q": "La frecuencia se mide en hertz (Hz).",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Un hertz equivale a un ciclo por segundo."
+ },
+ {
+  "id": 1794000000067,
+  "disc": 3,
+  "q": "El período y la frecuencia son inversamente proporcionales.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Se relacionan mediante T = 1/f."
+ },
+ {
+  "id": 1794000000068,
+  "disc": 3,
+  "q": "La longitud de onda puede medirse desde una cresta hasta la siguiente cresta.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Es la distancia entre dos puntos consecutivos en la misma fase."
+ },
+ {
+  "id": 1794000000069,
+  "disc": 3,
+  "q": "Los ultrasonidos tienen frecuencias superiores a 20.000 Hz.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "El ultrasonido supera el límite superior aproximado de la audición humana."
+ },
+ {
+  "id": 1794000000070,
+  "disc": 3,
+  "q": "El sonido se propaga en el vacío de la misma manera que la luz.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "La luz es electromagnética y viaja en el vacío; el sonido necesita un medio material."
+ },
+ {
+  "id": 1794000000071,
+  "disc": 3,
+  "q": "¿Qué es la respiración?",
+  "o": [
+   "El proceso por el cual el organismo obtiene oxígeno y elimina dióxido de carbono",
+   "La producción de glucosa en el hígado",
+   "El movimiento de sangre dentro de las arterias",
+   "La regulación exclusiva de la temperatura"
+  ],
+  "c": 0,
+  "e": "La respiración permite incorporar oxígeno y eliminar dióxido de carbono."
+ },
+ {
+  "id": 1794000000072,
+  "disc": 3,
+  "q": "¿Qué es la inspiración?",
+  "o": [
+   "La salida de aire de los pulmones",
+   "La entrada de aire a los pulmones",
+   "El intercambio de nutrientes en la sangre",
+   "La pausa entre dos respiraciones"
+  ],
+  "c": 1,
+  "e": "La inspiración es la fase en la que el aire entra en los pulmones."
+ },
+ {
+  "id": 1794000000073,
+  "disc": 3,
+  "q": "¿Qué es la espiración?",
+  "o": [
+   "La entrada de aire a los pulmones",
+   "La salida de aire de los pulmones",
+   "La difusión de oxígeno hacia la sangre",
+   "La contracción cardíaca"
+  ],
+  "c": 1,
+  "e": "La espiración es la salida de aire desde los pulmones hacia el exterior."
+ },
+ {
+  "id": 1794000000074,
+  "disc": 3,
+  "q": "¿Qué es el volumen corriente?",
+  "o": [
+   "El aire que permanece tras una espiración máxima",
+   "El aire que entra y sale durante una respiración normal",
+   "El máximo aire expulsado tras una inspiración máxima",
+   "El aire que nunca llega a las vías respiratorias"
+  ],
+  "c": 1,
+  "e": "El volumen corriente es la cantidad de aire movilizada en una respiración tranquila."
+ },
+ {
+  "id": 1794000000075,
+  "disc": 3,
+  "q": "¿Cuál es la función principal del diafragma?",
+  "o": [
+   "Es el principal músculo respiratorio y participa especialmente en la inspiración",
+   "Cierra la tráquea durante la respiración",
+   "Produce el intercambio gaseoso en los alvéolos",
+   "Bombea sangre hacia los pulmones"
+  ],
+  "c": 0,
+  "e": "El diafragma es el principal músculo inspiratorio; al contraerse desciende y aumenta el volumen torácico."
+ },
+ {
+  "id": 1794000000076,
+  "disc": 3,
+  "q": "¿Qué es el intercambio gaseoso?",
+  "o": [
+   "El paso de oxígeno a la sangre y la salida de dióxido de carbono de ella",
+   "La producción de calor en los músculos",
+   "El movimiento de aire por la nariz únicamente",
+   "La transformación de glucosa en ATP en el núcleo"
+  ],
+  "c": 0,
+  "e": "En los alvéolos, el oxígeno difunde hacia la sangre y el dióxido de carbono difunde en sentido contrario."
+ },
+ {
+  "id": 1794000000077,
+  "disc": 3,
+  "q": "¿Qué es la termorregulación?",
+  "o": [
+   "La capacidad de mantener relativamente estable la temperatura corporal",
+   "La producción de sonido por el organismo",
+   "La regulación exclusiva de la glucosa sanguínea",
+   "La pérdida total de calor corporal"
+  ],
+  "c": 0,
+  "e": "La termorregulación equilibra la producción y la pérdida de calor para mantener la temperatura interna."
+ },
+ {
+  "id": 1794000000078,
+  "disc": 3,
+  "q": "¿Qué es el metabolismo basal?",
+  "o": [
+   "La energía usada únicamente durante el ejercicio",
+   "La energía necesaria en reposo para mantener las funciones vitales",
+   "La cantidad de calor del ambiente",
+   "La energía almacenada exclusivamente en los huesos"
+  ],
+  "c": 1,
+  "e": "Es el gasto energético necesario para sostener funciones vitales en condiciones basales."
+ },
+ {
+  "id": 1794000000079,
+  "disc": 3,
+  "q": "¿Qué es la febrícula?",
+  "o": [
+   "Una elevación ligera de la temperatura corporal",
+   "Una disminución grave de la temperatura",
+   "La ausencia de fiebre y de regulación térmica",
+   "Un aumento permanente de la presión arterial"
+  ],
+  "c": 0,
+  "e": "La febrícula es una elevación leve de la temperatura; el umbral exacto varía según el contexto clínico."
+ },
+ {
+  "id": 1794000000080,
+  "disc": 3,
+  "q": "¿Qué es la sudoración?",
+  "o": [
+   "La producción de sudor, que ayuda a perder calor por evaporación",
+   "La contracción del músculo diafragma",
+   "La transferencia de calor por contacto con un objeto",
+   "La producción de hormonas tiroideas"
+  ],
+  "c": 0,
+  "e": "La sudoración lleva agua a la superficie de la piel; su evaporación favorece la pérdida de calor."
+ },
+ {
+  "id": 1794000000081,
+  "disc": 3,
+  "q": "¿Qué es la conducción térmica?",
+  "o": [
+   "Transferencia de calor por contacto directo",
+   "Transferencia de calor por ondas electromagnéticas",
+   "Transferencia de calor mediante el movimiento de un fluido",
+   "Pérdida de calor exclusivamente por evaporación"
+  ],
+  "c": 0,
+  "e": "La conducción es la transferencia de calor entre cuerpos o zonas en contacto directo."
+ },
+ {
+  "id": 1794000000082,
+  "disc": 3,
+  "q": "¿Qué es la convección térmica?",
+  "o": [
+   "Transferencia de calor mediante el movimiento de líquidos o gases",
+   "Transferencia de calor por contacto sin movimiento",
+   "Transferencia de calor mediante ondas electromagnéticas",
+   "Transformación de energía eléctrica en calor"
+  ],
+  "c": 0,
+  "e": "La convección ocurre cuando un fluido en movimiento transporta calor."
+ },
+ {
+  "id": 1794000000083,
+  "disc": 3,
+  "q": "¿Qué es la radiación térmica?",
+  "o": [
+   "Transferencia de calor mediante ondas electromagnéticas, sin contacto directo",
+   "Transferencia de calor únicamente por líquidos",
+   "Transferencia de calor solo por contacto entre sólidos",
+   "La pérdida de agua por la piel"
+  ],
+  "c": 0,
+  "e": "La radiación térmica puede transferir energía sin necesidad de un medio material."
+ },
+ {
+  "id": 1794000000084,
+  "disc": 3,
+  "q": "¿Qué es el hipotálamo?",
+  "o": [
+   "Una estructura cerebral que regula funciones como la temperatura corporal",
+   "Un huesecillo del oído medio",
+   "Una parte del pulmón donde ocurre el intercambio gaseoso",
+   "Una glándula situada dentro del corazón"
+  ],
+  "c": 0,
+  "e": "El hipotálamo participa en la homeostasis y regula temperatura, hambre, sed y funciones neuroendocrinas."
+ },
+ {
+  "id": 1794000000085,
+  "disc": 3,
+  "q": "¿Qué es la bioelectricidad?",
+  "o": [
+   "El estudio de los fenómenos eléctricos que ocurren en los seres vivos",
+   "El estudio exclusivo de la energía térmica",
+   "La producción de sonido en el oído",
+   "El transporte de gases en la sangre"
+  ],
+  "c": 0,
+  "e": "La bioelectricidad estudia fenómenos eléctricos biológicos, como potenciales de membrana y señales nerviosas."
+ },
+ {
+  "id": 1794000000086,
+  "disc": 3,
+  "q": "¿Qué es la corriente eléctrica?",
+  "o": [
+   "El movimiento ordenado de cargas eléctricas a través de un material",
+   "La oposición de un material al paso de cargas",
+   "La diferencia de temperatura entre dos puntos",
+   "La energía almacenada en un campo gravitatorio"
+  ],
+  "c": 0,
+  "e": "La corriente eléctrica es el flujo de carga eléctrica por unidad de tiempo."
+ },
+ {
+  "id": 1794000000087,
+  "disc": 3,
+  "q": "¿Qué es la resistencia eléctrica?",
+  "o": [
+   "La oposición que presenta un material al paso de la corriente",
+   "La cantidad de carga que circula por segundo",
+   "La diferencia de potencial entre dos puntos",
+   "La energía térmica del ambiente"
+  ],
+  "c": 0,
+  "e": "La resistencia limita el paso de corriente y se mide en ohmios."
+ },
+ {
+  "id": 1794000000088,
+  "disc": 3,
+  "q": "¿Cuál es la unidad de resistencia eléctrica?",
+  "o": [
+   "Amperio",
+   "Ohmio",
+   "Voltio",
+   "Watt"
+  ],
+  "c": 1,
+  "e": "La unidad de resistencia eléctrica es el ohmio (Ω)."
+ },
+ {
+  "id": 1794000000089,
+  "disc": 3,
+  "q": "¿Qué es la Ley de Ohm?",
+  "o": [
+   "La ley que relaciona tensión, corriente y resistencia",
+   "La ley que relaciona presión y volumen de un gas",
+   "La ley de conservación de la masa",
+   "La ley que describe la propagación del sonido"
+  ],
+  "c": 0,
+  "e": "La Ley de Ohm relaciona V, I y R mediante V = R × I."
+ },
+ {
+  "id": 1794000000090,
+  "disc": 3,
+  "q": "¿Qué es el efecto Joule?",
+  "o": [
+   "La transformación de energía eléctrica en calor al circular corriente",
+   "La transformación de ondas sonoras en luz",
+   "La pérdida de calor por evaporación",
+   "La generación de presión por un gas"
+  ],
+  "c": 0,
+  "e": "El efecto Joule describe la energía eléctrica disipada en forma de calor en una resistencia."
+ },
+ {
+  "id": 1794000000091,
+  "disc": 3,
+  "q": "¿Qué es la tensión eléctrica?",
+  "o": [
+   "La diferencia de potencial eléctrico entre dos puntos",
+   "La oposición al paso de corriente",
+   "El flujo de electrones por segundo",
+   "La cantidad de calor transferida por radiación"
+  ],
+  "c": 0,
+  "e": "La tensión o voltaje es la diferencia de potencial eléctrico entre dos puntos."
+ },
+ {
+  "id": 1794000000092,
+  "disc": 3,
+  "q": "¿Qué es la fibrilación ventricular?",
+  "o": [
+   "Una actividad eléctrica desorganizada de los ventrículos que impide un bombeo eficaz",
+   "Una contracción normal y coordinada de las aurículas",
+   "Una infección de las válvulas cardíacas",
+   "Una disminución aislada de la temperatura corporal"
+  ],
+  "c": 0,
+  "e": "En la fibrilación ventricular, la actividad eléctrica es caótica y los ventrículos no bombean sangre eficazmente."
+ },
+ {
+  "id": 1794000000093,
+  "disc": 3,
+  "q": "¿Qué ocurre en el cátodo?",
+  "o": [
+   "Reducción",
+   "Oxidación",
+   "Evaporación",
+   "Neutralización térmica"
+  ],
+  "c": 0,
+  "e": "En el cátodo ocurre la reducción; la definición se mantiene tanto en celdas galvánicas como electrolíticas."
+ },
+ {
+  "id": 1794000000094,
+  "disc": 3,
+  "q": "¿Qué ocurre en el ánodo?",
+  "o": [
+   "Oxidación",
+   "Reducción",
+   "Condensación",
+   "Fusión"
+  ],
+  "c": 0,
+  "e": "En el ánodo ocurre la oxidación."
+ },
+ {
+  "id": 1794000000095,
+  "disc": 3,
+  "q": "¿Qué es el electromagnetismo?",
+  "o": [
+   "La rama de la física que estudia la relación entre fenómenos eléctricos y magnéticos",
+   "El estudio exclusivo de las ondas sonoras",
+   "La rama que estudia solo la temperatura",
+   "El estudio de la presión en los pulmones"
+  ],
+  "c": 0,
+  "e": "El electromagnetismo describe cómo se relacionan las cargas, las corrientes y los campos eléctricos y magnéticos."
+ },
+ {
+  "id": 1794000000096,
+  "disc": 3,
+  "q": "¿Qué es una onda electromagnética?",
+  "o": [
+   "Una onda de campos eléctricos y magnéticos que transporta energía",
+   "Una onda mecánica que siempre necesita agua",
+   "Una vibración de partículas que no transporta energía",
+   "Una corriente continua en un cable"
+  ],
+  "c": 0,
+  "e": "Una onda electromagnética está formada por campos eléctricos y magnéticos variables y transporta energía."
+ },
+ {
+  "id": 1794000000097,
+  "disc": 3,
+  "q": "¿Cómo se propagan las ondas electromagnéticas en el vacío?",
+  "o": [
+   "Sin necesitar un medio material, a la velocidad de la luz",
+   "Solo mediante partículas de aire",
+   "Únicamente dentro del agua",
+   "A la misma velocidad que el sonido"
+  ],
+  "c": 0,
+  "e": "En el vacío se propagan sin medio material a aproximadamente 300.000 km/s."
+ },
+ {
+  "id": 1794000000098,
+  "disc": 3,
+  "q": "¿Cuál es una característica de las ondas electromagnéticas?",
+  "o": [
+   "Son transversales, transportan energía y pueden propagarse en el vacío",
+   "Son longitudinales y necesitan aire",
+   "No transportan energía",
+   "Solo se propagan en sólidos"
+  ],
+  "c": 0,
+  "e": "En el modelo clásico son ondas transversales y pueden propagarse en el vacío."
+ },
+ {
+  "id": 1794000000099,
+  "disc": 3,
+  "q": "¿Qué es un campo eléctrico?",
+  "o": [
+   "La región donde una carga eléctrica puede experimentar una fuerza",
+   "La región donde solo actúa la gravedad",
+   "La zona donde se produce el sonido",
+   "La distancia entre dos crestas de una onda"
+  ],
+  "c": 0,
+  "e": "Un campo eléctrico describe la fuerza eléctrica que actuaría sobre una carga de prueba en cada punto."
+ },
+ {
+  "id": 1794000000100,
+  "disc": 3,
+  "q": "¿Qué es un campo magnético?",
+  "o": [
+   "La región del espacio donde actúan fuerzas magnéticas",
+   "La región donde se mide la presión atmosférica",
+   "El espacio sin cargas eléctricas",
+   "La zona donde se produce evaporación"
+  ],
+  "c": 0,
+  "e": "El campo magnético representa la acción magnética sobre imanes, materiales y cargas en movimiento."
+ },
+ {
+  "id": 1794000000101,
+  "disc": 3,
+  "q": "¿Qué diferencia existe entre una onda mecánica y una electromagnética?",
+  "o": [
+   "La onda mecánica necesita un medio material; la electromagnética puede propagarse en el vacío",
+   "Ambas siempre necesitan aire",
+   "La onda electromagnética no transporta energía",
+   "La onda mecánica siempre viaja más rápido que la luz"
+  ],
+  "c": 0,
+  "e": "Las ondas mecánicas requieren un medio material; las electromagnéticas no."
+ },
+ {
+  "id": 1794000000102,
+  "disc": 3,
+  "q": "¿Qué son los rayos X?",
+  "o": [
+   "Radiaciones electromagnéticas ionizantes usadas para obtener imágenes internas",
+   "Ondas mecánicas producidas por vibraciones",
+   "Ondas de radio no ionizantes",
+   "Partículas sonoras de alta frecuencia"
+  ],
+  "c": 0,
+  "e": "Los rayos X son radiación electromagnética ionizante utilizada en diagnóstico por imágenes."
+ },
+ {
+  "id": 1794000000103,
+  "disc": 3,
+  "q": "¿Qué es la radiación ionizante?",
+  "o": [
+   "Radiación con energía suficiente para arrancar electrones de átomos o moléculas",
+   "Radiación que no interactúa con la materia",
+   "Radiación que solo produce vibraciones audibles",
+   "Radiación sin energía"
+  ],
+  "c": 0,
+  "e": "La ionización ocurre cuando la radiación expulsa electrones de átomos o moléculas."
+ },
+ {
+  "id": 1794000000104,
+  "disc": 3,
+  "q": "¿Qué son los efectos biológicos de la radiación?",
+  "o": [
+   "Alteraciones que la radiación puede producir en células y tejidos",
+   "Cambios exclusivos en la presión atmosférica",
+   "Cambios del sonido en el oído",
+   "Variaciones de la corriente en un circuito"
+  ],
+  "c": 0,
+  "e": "La radiación puede producir cambios celulares y tisulares, según dosis, tipo de radiación y tejido."
+ },
+ {
+  "id": 1794000000105,
+  "disc": 3,
+  "q": "¿Qué son los efectos somáticos de la radiación?",
+  "o": [
+   "Efectos que afectan directamente al individuo expuesto",
+   "Efectos que siempre aparecen en la descendencia",
+   "Efectos que solo afectan a los objetos",
+   "Efectos exclusivamente térmicos"
+  ],
+  "c": 0,
+  "e": "Los efectos somáticos aparecen en la propia persona expuesta."
+ },
+ {
+  "id": 1794000000106,
+  "disc": 3,
+  "q": "¿Qué son los efectos hereditarios de la radiación?",
+  "o": [
+   "Efectos relacionados con alteraciones genéticas transmisibles a la descendencia",
+   "Efectos que afectan únicamente la piel expuesta",
+   "Efectos que solo producen calentamiento",
+   "Efectos que aparecen de inmediato en todos los tejidos"
+  ],
+  "c": 0,
+  "e": "Se relacionan con alteraciones en células germinales que podrían transmitirse a la descendencia."
+ },
+ {
+  "id": 1794000000107,
+  "disc": 3,
+  "q": "¿Qué son los efectos estocásticos?",
+  "o": [
+   "Efectos cuya probabilidad de aparición aumenta con la dosis, sin un umbral demostrado",
+   "Efectos que siempre aparecen por encima de una dosis umbral y cuya gravedad aumenta",
+   "Efectos que solo producen calor",
+   "Efectos que nunca dependen de la dosis"
+  ],
+  "c": 0,
+  "e": "En los efectos estocásticos, la dosis aumenta la probabilidad de aparición; la gravedad no se considera proporcional a la dosis."
+ },
+ {
+  "id": 1794000000108,
+  "disc": 3,
+  "q": "¿Qué son los rayos infrarrojos?",
+  "o": [
+   "Radiaciones electromagnéticas más allá del extremo rojo visible que pueden producir efectos térmicos",
+   "Ondas mecánicas por debajo de 20 Hz",
+   "Radiación ionizante de máxima energía",
+   "Partículas con carga negativa"
+  ],
+  "c": 0,
+  "e": "La radiación infrarroja es no ionizante y suele producir calentamiento al ser absorbida."
+ },
+ {
+  "id": 1794000000109,
+  "disc": 3,
+  "q": "¿Qué son las microondas?",
+  "o": [
+   "Ondas electromagnéticas que pueden utilizarse en ciertas aplicaciones terapéuticas por sus efectos térmicos",
+   "Ondas sonoras que necesitan aire",
+   "Partículas ionizantes del núcleo",
+   "Ondas mecánicas del agua"
+  ],
+  "c": 0,
+  "e": "Las microondas son radiación electromagnética y pueden emplearse en modalidades terapéuticas controladas."
+ },
+ {
+  "id": 1794000000110,
+  "disc": 3,
+  "q": "¿Qué es el sonido?",
+  "o": [
+   "Una onda mecánica producida por vibraciones que necesita un medio material",
+   "Una onda electromagnética que viaja en el vacío",
+   "Una corriente de electrones",
+   "Una radiación ionizante"
+  ],
+  "c": 0,
+  "e": "El sonido es una onda mecánica que transporta energía a través de un medio material."
+ },
+ {
+  "id": 1794000000111,
+  "disc": 3,
+  "q": "¿Qué es una onda sonora?",
+  "o": [
+   "Una perturbación mecánica que se propaga por un medio material transportando energía",
+   "Una onda electromagnética que no requiere medio",
+   "Un movimiento de sangre",
+   "Una transferencia de calor por radiación"
+  ],
+  "c": 0,
+  "e": "Una onda sonora transmite energía mediante la vibración de las partículas de un medio."
+ },
+ {
+  "id": 1794000000112,
+  "disc": 3,
+  "q": "¿Qué es la amplitud de una onda?",
+  "o": [
+   "La máxima distancia respecto a la posición de equilibrio",
+   "El número de ciclos por segundo",
+   "El tiempo necesario para un ciclo",
+   "La distancia entre dos crestas"
+  ],
+  "c": 0,
+  "e": "La amplitud es el máximo desplazamiento desde la posición de equilibrio."
+ },
+ {
+  "id": 1794000000113,
+  "disc": 3,
+  "q": "¿Qué es la longitud de onda?",
+  "o": [
+   "La distancia entre dos puntos consecutivos en la misma fase",
+   "El tiempo que dura una vibración",
+   "El número de ciclos por segundo",
+   "La energía total de una onda"
+  ],
+  "c": 0,
+  "e": "La longitud de onda puede medirse de cresta a cresta o entre puntos equivalentes consecutivos."
+ },
+ {
+  "id": 1794000000114,
+  "disc": 3,
+  "q": "¿Qué es la frecuencia?",
+  "o": [
+   "El número de ciclos u oscilaciones por segundo",
+   "El tiempo de un ciclo",
+   "La distancia entre dos crestas",
+   "La altura de la onda"
+  ],
+  "c": 0,
+  "e": "La frecuencia es el número de ciclos por segundo y se mide en hertz."
+ },
+ {
+  "id": 1794000000115,
+  "disc": 3,
+  "q": "¿Qué es el período?",
+  "o": [
+   "El tiempo que tarda una onda en completar un ciclo",
+   "El número de ciclos por segundo",
+   "La distancia entre dos valles",
+   "La intensidad sonora"
+  ],
+  "c": 0,
+  "e": "El período es la duración de un ciclo y se expresa en segundos."
+ },
+ {
+  "id": 1794000000116,
+  "disc": 3,
+  "q": "¿Qué es el tiempo en el contexto de una oscilación?",
+  "o": [
+   "La duración durante la cual ocurre un fenómeno o una oscilación",
+   "La distancia entre dos crestas",
+   "El número de ciclos por segundo",
+   "La amplitud máxima"
+  ],
+  "c": 0,
+  "e": "El tiempo expresa la duración del fenómeno; el período es el tiempo de un ciclo completo."
+ },
+ {
+  "id": 1794000000117,
+  "disc": 3,
+  "q": "¿Qué es la velocidad del sonido?",
+  "o": [
+   "La rapidez con la que una onda sonora se propaga en un medio",
+   "La cantidad de ciclos por segundo",
+   "La altura de la cresta",
+   "La energía que atraviesa una superficie"
+  ],
+  "c": 0,
+  "e": "Es la distancia recorrida por la perturbación sonora por unidad de tiempo."
+ },
+ {
+  "id": 1794000000118,
+  "disc": 3,
+  "q": "¿De qué depende la velocidad del sonido?",
+  "o": [
+   "Del medio de propagación y de sus condiciones, como la temperatura",
+   "Solamente del color del objeto",
+   "Únicamente de la amplitud",
+   "Solo de la frecuencia cardíaca"
+  ],
+  "c": 0,
+  "e": "La elasticidad, densidad y temperatura del medio influyen en la velocidad del sonido."
+ },
+ {
+  "id": 1794000000119,
+  "disc": 3,
+  "q": "¿Qué son los ultrasonidos?",
+  "o": [
+   "Ondas sonoras con frecuencias superiores a 20.000 Hz",
+   "Ondas sonoras inferiores a 20 Hz",
+   "Ondas electromagnéticas visibles",
+   "Sonidos de frecuencia entre 100 y 500 Hz"
+  ],
+  "c": 0,
+  "e": "Los ultrasonidos superan los 20 kHz, límite superior aproximado de la audición humana."
+ },
+ {
+  "id": 1794000000120,
+  "disc": 3,
+  "q": "¿Qué es la resonancia?",
+  "o": [
+   "El aumento de la amplitud de una vibración al recibir una frecuencia igual o cercana a su frecuencia natural",
+   "La disminución de la frecuencia a cero",
+   "La pérdida de energía en el vacío",
+   "La conversión de sonido en radiación ionizante"
+  ],
+  "c": 0,
+  "e": "La resonancia ocurre cuando una excitación cercana a la frecuencia natural aumenta la amplitud de vibración."
+ },
+ {
+  "id": 1794000000121,
+  "disc": 3,
+  "q": "¿Qué es la intensidad sonora?",
+  "o": [
+   "La energía sonora que atraviesa una superficie por unidad de tiempo y de área",
+   "El tiempo necesario para un ciclo",
+   "La distancia entre dos crestas",
+   "La frecuencia de la voz"
+  ],
+  "c": 0,
+  "e": "La intensidad es potencia por unidad de área; para una onda en un medio dado, se relaciona con el cuadrado de la amplitud."
+ },
+ {
+  "id": 1794000000122,
+  "disc": 3,
+  "q": "¿Qué es el timbre?",
+  "o": [
+   "La cualidad que permite diferenciar sonidos aunque tengan igual frecuencia e intensidad",
+   "La cualidad que distingue sonidos graves y agudos",
+   "El número de ciclos por segundo",
+   "La velocidad de propagación"
+  ],
+  "c": 0,
+  "e": "El timbre depende de la composición espectral y permite distinguir fuentes sonoras."
+ },
+ {
+  "id": 1794000000123,
+  "disc": 3,
+  "q": "¿Qué es el tono?",
+  "o": [
+   "La cualidad que permite distinguir sonidos graves y agudos",
+   "La cualidad que identifica el instrumento por sus armónicos",
+   "La distancia entre dos crestas",
+   "La energía por unidad de área"
+  ],
+  "c": 0,
+  "e": "El tono se relaciona principalmente con la frecuencia: frecuencias altas se perciben agudas y bajas, graves."
+ },
+ {
+  "id": 1794000000124,
+  "disc": 3,
+  "q": "¿Cuáles son los tres huesecillos del oído medio?",
+  "o": [
+   "Martillo, yunque y estribo",
+   "Cóclea, tímpano y vestíbulo",
+   "Estribo, caracol y trompa de Eustaquio",
+   "Martillo, cóclea y nervio auditivo"
+  ],
+  "c": 0,
+  "e": "Los tres huesecillos del oído medio son martillo, yunque y estribo."
+ },
+ {
+  "id": 1794000000125,
+  "disc": 3,
+  "q": "¿Cuál es el huesecillo más pequeño del cuerpo humano?",
+  "o": [
+   "Martillo",
+   "Yunque",
+   "Estribo",
+   "Cóclea"
+  ],
+  "c": 2,
+  "e": "El estribo es el huesecillo más pequeño del cuerpo humano."
+ },
+ {
+  "id": 1794000000126,
+  "disc": 3,
+  "q": "¿Qué es la audiometría?",
+  "o": [
+   "Una prueba que evalúa la capacidad auditiva",
+   "Una prueba que mide la presión arterial",
+   "Un estudio de la temperatura corporal",
+   "Una técnica para medir la resistencia eléctrica"
+  ],
+  "c": 0,
+  "e": "La audiometría evalúa los umbrales de audición para distintas frecuencias."
+ },
+ {
+  "id": 1794000000127,
+  "disc": 3,
+  "q": "¿Qué ley permite calcular la intensidad de corriente eléctrica a partir de la tensión y la resistencia?",
+  "o": [
+   "Ley de Boyle",
+   "Ley de Ohm",
+   "Ley de Joule",
+   "Ley de Newton"
+  ],
+  "c": 1,
+  "e": "La Ley de Ohm relaciona tensión, corriente y resistencia mediante V = R × I."
+ },
+ {
+  "id": 1794000000128,
+  "disc": 3,
+  "q": "¿Cuál es la unidad de medida de la resistencia eléctrica?",
+  "o": [
+   "Amperio",
+   "Voltio",
+   "Ohmio",
+   "Vatio"
+  ],
+  "c": 2,
+  "e": "La resistencia eléctrica se mide en ohmios (Ω)."
+ },
+ {
+  "id": 1794000000129,
+  "disc": 3,
+  "q": "¿Qué ocurre cuando una corriente eléctrica atraviesa una resistencia y produce calor?",
+  "o": [
+   "Efecto Doppler",
+   "Efecto Joule",
+   "Efecto magnético",
+   "Efecto fotoeléctrico"
+  ],
+  "c": 1,
+  "e": "El efecto Joule transforma energía eléctrica en energía térmica."
+ },
+ {
+  "id": 1794000000130,
+  "disc": 3,
+  "q": "¿Qué sucede con la resistencia eléctrica de la piel cuando está húmeda?",
+  "o": [
+   "Aumenta",
+   "Disminuye",
+   "Permanece constante",
+   "Desaparece completamente"
+  ],
+  "c": 1,
+  "e": "La humedad suele reducir la resistencia de la piel y facilitar el paso de corriente."
+ },
+ {
+  "id": 1794000000131,
+  "disc": 3,
+  "q": "¿Qué es la corriente eléctrica?",
+  "o": [
+   "Movimiento ordenado de cargas eléctricas",
+   "Movimiento de moléculas de agua",
+   "Producción exclusiva de calor",
+   "Ausencia de cargas eléctricas"
+  ],
+  "c": 0,
+  "e": "La corriente eléctrica es el flujo ordenado de cargas eléctricas a través de un material."
+ },
+ {
+  "id": 1794000000132,
+  "disc": 3,
+  "q": "¿Qué ocurre en el cátodo durante una reacción electroquímica?",
+  "o": [
+   "Oxidación",
+   "Reducción",
+   "Evaporación",
+   "Combustión"
+  ],
+  "c": 1,
+  "e": "En el cátodo ocurre la reducción; en el ánodo ocurre la oxidación."
+ },
+ {
+  "id": 1794000000133,
+  "disc": 3,
+  "q": "¿Qué estructura cerebral actúa como principal centro regulador de la temperatura corporal?",
+  "o": [
+   "Tálamo",
+   "Hipotálamo",
+   "Cerebelo",
+   "Hipocampo"
+  ],
+  "c": 1,
+  "e": "El hipotálamo, especialmente el área preóptica, integra señales térmicas y coordina respuestas de enfriamiento y conservación de calor."
+ },
+ {
+  "id": 1794000000134,
+  "disc": 3,
+  "q": "¿Cuál es la principal función de la sudoración durante el aumento de la temperatura corporal?",
+  "o": [
+   "Aumentar la temperatura",
+   "Producir energía",
+   "Eliminar calor mediante evaporación",
+   "Disminuir la circulación sanguínea"
+  ],
+  "c": 2,
+  "e": "La evaporación del sudor absorbe calor de la piel y favorece el enfriamiento."
+ },
+ {
+  "id": 1794000000135,
+  "disc": 3,
+  "q": "¿Cuál de las siguientes situaciones puede aumentar el metabolismo basal?",
+  "o": [
+   "Hipotiroidismo",
+   "Hipertiroidismo",
+   "Disminución de la actividad tiroidea",
+   "Reducción de la actividad metabólica"
+  ],
+  "c": 1,
+  "e": "El exceso de hormonas tiroideas acelera el metabolismo y puede elevar el gasto basal."
+ },
+ {
+  "id": 1794000000136,
+  "disc": 3,
+  "q": "¿Qué significa el término febrícula?",
+  "o": [
+   "Disminución de la temperatura corporal",
+   "Elevación ligera de la temperatura corporal",
+   "Ausencia de temperatura corporal",
+   "Temperatura extremadamente baja"
+  ],
+  "c": 1,
+  "e": "La febrícula es una elevación leve de la temperatura corporal."
+ },
+ {
+  "id": 1794000000137,
+  "disc": 3,
+  "q": "¿Cuál de los siguientes NO es un mecanismo básico de transferencia de calor?",
+  "o": [
+   "Conducción",
+   "Convección",
+   "Radiación",
+   "Sudoración"
+  ],
+  "c": 3,
+  "e": "Las formas físicas básicas son conducción, convección y radiación. La sudoración favorece la pérdida por evaporación."
+ },
+ {
+  "id": 1794000000138,
+  "disc": 3,
+  "q": "Según la Ley de Boyle, ¿qué sucede con la presión de un gas cuando su volumen disminuye y la temperatura permanece constante?",
+  "o": [
+   "La presión disminuye",
+   "La presión aumenta",
+   "La presión permanece constante",
+   "La presión desaparece"
+  ],
+  "c": 1,
+  "e": "A temperatura constante, presión y volumen son inversamente proporcionales."
+ },
+ {
+  "id": 1794000000139,
+  "disc": 3,
+  "q": "¿Qué sucede con el diafragma durante la inspiración?",
+  "o": [
+   "Se relaja y asciende",
+   "Se contrae y desciende",
+   "Permanece inmóvil",
+   "Se contrae y asciende"
+  ],
+  "c": 1,
+  "e": "Al contraerse, el diafragma desciende y aumenta el volumen torácico, facilitando la entrada de aire."
+ },
+ {
+  "id": 1794000000140,
+  "disc": 3,
+  "q": "¿Qué tipo de radiación utiliza la resonancia magnética para obtener imágenes del organismo?",
+  "o": [
+   "Rayos X",
+   "Rayos gamma",
+   "Pulsos de radiofrecuencia en un campo magnético intenso",
+   "Radiación ultravioleta"
+  ],
+  "c": 2,
+  "e": "La resonancia magnética utiliza campos magnéticos y pulsos de radiofrecuencia; no utiliza radiación ionizante."
+ },
+ {
+  "id": 1794000000141,
+  "disc": 3,
+  "q": "¿Qué tipo de radiación son los rayos X?",
+  "o": [
+   "Radiación mecánica",
+   "Radiación electromagnética ionizante",
+   "Radiación sonora",
+   "Radiación térmica exclusivamente"
+  ],
+  "c": 1,
+  "e": "Los rayos X son ondas electromagnéticas ionizantes."
+ },
+ {
+  "id": 1794000000142,
+  "disc": 3,
+  "q": "¿Qué puede provocar una exposición excesiva a la radiación infrarroja?",
+  "o": [
+   "Efectos térmicos y quemaduras",
+   "Disminución de la temperatura corporal",
+   "Ausencia de efectos sobre los tejidos",
+   "Producción de ondas sonoras"
+  ],
+  "c": 0,
+  "e": "La radiación infrarroja produce calentamiento y una exposición excesiva puede causar lesiones térmicas."
+ },
+ {
+  "id": 1794000000143,
+  "disc": 3,
+  "q": "¿Las microondas pueden utilizarse con fines terapéuticos?",
+  "o": [
+   "No, nunca",
+   "Sí, en determinados tratamientos mediante sus efectos térmicos",
+   "Solamente para diagnosticar fracturas",
+   "Solamente para producir imágenes óseas"
+  ],
+  "c": 1,
+  "e": "Pueden emplearse en modalidades de diatermia, bajo control profesional."
+ },
+ {
+  "id": 1794000000144,
+  "disc": 3,
+  "q": "¿Cómo se propagan las ondas electromagnéticas en el vacío?",
+  "o": [
+   "Necesitan aire",
+   "Necesitan agua",
+   "No necesitan un medio material",
+   "Solamente se propagan en sólidos"
+  ],
+  "c": 2,
+  "e": "Las ondas electromagnéticas pueden propagarse en el vacío transportando energía."
+ },
+ {
+  "id": 1794000000145,
+  "disc": 3,
+  "q": "¿Qué es el electromagnetismo?",
+  "o": [
+   "Estudio exclusivo del calor",
+   "Estudio de la relación entre los fenómenos eléctricos y magnéticos",
+   "Estudio exclusivo del sonido",
+   "Estudio de la presión atmosférica"
+  ],
+  "c": 1,
+  "e": "El electromagnetismo estudia los fenómenos eléctricos y magnéticos y su relación."
+ },
+ {
+  "id": 1794000000146,
+  "disc": 3,
+  "q": "¿Cuáles son los tres huesecillos del oído medio?",
+  "o": [
+   "Martillo, yunque y estribo",
+   "Cóclea, tímpano y caracol",
+   "Martillo, cóclea y tímpano",
+   "Yunque, trompa y cóclea"
+  ],
+  "c": 0,
+  "e": "Los huesecillos del oído medio son martillo, yunque y estribo."
+ },
+ {
+  "id": 1794000000147,
+  "disc": 3,
+  "q": "¿Cuál es el huesecillo más pequeño del cuerpo humano?",
+  "o": [
+   "Martillo",
+   "Yunque",
+   "Estribo",
+   "Cóclea"
+  ],
+  "c": 2,
+  "e": "El estribo es el huesecillo más pequeño del cuerpo humano."
+ },
+ {
+  "id": 1794000000148,
+  "disc": 3,
+  "q": "¿Qué estructura comunica el oído medio con la nasofaringe?",
+  "o": [
+   "Cóclea",
+   "Trompa de Eustaquio",
+   "Nervio vestibular",
+   "Conducto auditivo externo"
+  ],
+  "c": 1,
+  "e": "La trompa de Eustaquio comunica el oído medio con la nasofaringe y ayuda a equilibrar la presión."
+ },
+ {
+  "id": 1794000000149,
+  "disc": 3,
+  "q": "¿Qué tipo de sonido corresponde a una frecuencia de 40.000 Hz?",
+  "o": [
+   "Infrasonido",
+   "Sonido audible normal",
+   "Ultrasonido",
+   "Sonido de baja frecuencia"
+  ],
+  "c": 2,
+  "e": "Los ultrasonidos tienen frecuencias superiores a 20.000 Hz."
+ },
+ {
+  "id": 1794000000150,
+  "disc": 3,
+  "q": "¿De qué depende la velocidad del sonido en el aire?",
+  "o": [
+   "Solamente del color del objeto",
+   "De la temperatura y de las condiciones del medio",
+   "Solamente de la intensidad sonora",
+   "De la luz ambiental"
+  ],
+  "c": 1,
+  "e": "La velocidad del sonido depende del medio; en el aire suele aumentar al aumentar la temperatura."
+ },
+ {
+  "id": 1794000000151,
+  "disc": 3,
+  "q": "El tálamo es el principal centro regulador de la temperatura corporal.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "El principal centro de termorregulación es el hipotálamo."
+ },
+ {
+  "id": 1794000000152,
+  "disc": 3,
+  "q": "Las ondas electromagnéticas necesitan un medio material para propagarse.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "Pueden propagarse en el vacío."
+ },
+ {
+  "id": 1794000000153,
+  "disc": 3,
+  "q": "La velocidad del sonido permanece constante independientemente de la temperatura.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 1,
+  "e": "La velocidad del sonido cambia con las condiciones del medio, incluida la temperatura."
+ },
+ {
+  "id": 1794000000154,
+  "disc": 3,
+  "q": "Durante la inspiración, el diafragma se contrae.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "Su contracción hace que descienda y aumente el volumen torácico."
+ },
+ {
+  "id": 1794000000155,
+  "disc": 3,
+  "q": "La evaporación del sudor ayuda a disminuir la temperatura corporal.",
+  "o": [
+   "Verdadero",
+   "Falso"
+  ],
+  "c": 0,
+  "e": "La evaporación consume calor de la superficie de la piel."
+ },
+ {
+  "id": 1794000000156,
+  "disc": 3,
+  "q": "¿Cómo se clasifican los efectos biológicos de la radiación según a quién afectan?",
+  "o": [
+   "Térmicos y acústicos",
+   "Somáticos y hereditarios",
+   "Deterministas y mecánicos",
+   "Magnéticos y acústicos"
+  ],
+  "c": 1,
+  "e": "Los efectos somáticos afectan a la persona expuesta; los hereditarios pueden transmitirse a la descendencia."
+ },
+ {
+  "id": 1794000000157,
+  "disc": 3,
+  "q": "¿Cómo se clasifican los efectos biológicos según su relación con la dosis?",
+  "o": [
+   "Somáticos y hereditarios",
+   "Deterministas y estocásticos",
+   "Térmicos y acústicos",
+   "Eléctricos y magnéticos"
+  ],
+  "c": 1,
+  "e": "Los deterministas tienen un umbral; en los estocásticos aumenta la probabilidad con la dosis."
+ },
+ {
+  "id": 1794000000158,
+  "disc": 3,
+  "q": "¿Cuál de los siguientes factores NO suele contribuir a aumentar el metabolismo basal?",
+  "o": [
+   "Hipertiroidismo",
+   "Mayor masa muscular",
+   "Sexo masculino",
+   "Disminución de la masa muscular"
+  ],
+  "c": 3,
+  "e": "La masa muscular es metabólicamente activa; una disminución de ella suele reducir el gasto basal."
+ },
+ {
+  "id": 1794000000159,
+  "disc": 3,
+  "q": "¿Qué factores influyen en el riesgo de fibrilación ventricular por corriente eléctrica?",
+  "o": [
+   "Solamente el voltaje",
+   "Solamente la temperatura ambiental",
+   "Intensidad, duración y recorrido de la corriente",
+   "Solamente la edad"
+  ],
+  "c": 2,
+  "e": "El riesgo depende, entre otros factores, de la intensidad, duración, trayecto corporal y tipo de corriente."
+ },
+ {
+  "id": 1794000000160,
+  "disc": 3,
+  "q": "¿Qué región del hipotálamo participa principalmente en la disipación del calor mediante vasodilatación cutánea y sudoración?",
+  "o": [
+   "Hipotálamo posterior",
+   "Hipotálamo anterior o área preóptica",
+   "Núcleo supraóptico",
+   "Núcleo paraventricular"
+  ],
+  "c": 1,
+  "e": "El área preóptica/anterior del hipotálamo participa de forma central en las respuestas de pérdida de calor, como sudoración y vasodilatación."
+ },
+ {
+  "id": 1794000000161,
+  "disc": 3,
+  "q": "¿Qué mecanismo de transferencia de calor ocurre cuando el agua líquida de la piel pasa a vapor?",
+  "o": [
+   "Conducción",
+   "Convección",
+   "Radiación",
+   "Evaporación"
+  ],
+  "c": 3,
+  "e": "Durante la evaporación, el agua absorbe energía térmica de la piel para pasar al estado gaseoso."
+ },
+ {
+  "id": 1794000000162,
+  "disc": 3,
+  "q": "¿Cuál es una estimación aproximada de la pérdida insensible diaria de agua por piel y respiración en un adulto?",
+  "o": [
+   "~100 ml",
+   "~500 ml",
+   "~1.000 ml",
+   "~1.500 ml"
+  ],
+  "c": 2,
+  "e": "Las estimaciones habituales varían, aproximadamente alrededor de 700–800 ml/día en condiciones normales; entre estas opciones, 1.000 ml es la más cercana. No es un valor fijo."
+ },
+ {
+  "id": 1794000000163,
+  "disc": 3,
+  "q": "Según el principio de Blackman-Pütter aplicado a una cadena de reacciones, ¿qué determina la velocidad global del proceso?",
+  "o": [
+   "La reacción con mayor consumo energético",
+   "El eslabón o reacción más lenta",
+   "La cantidad total de sustrato disponible únicamente",
+   "La temperatura ambiental media"
+  ],
+  "c": 1,
+  "e": "En una secuencia de reacciones, la etapa limitante más lenta puede determinar la velocidad global del proceso."
+ },
+ {
+  "id": 1794000000164,
+  "disc": 3,
+  "q": "¿Cuál es la diferencia fisiológica principal entre fiebre e hipertermia?",
+  "o": [
+   "En la fiebre aumenta el punto de ajuste hipotalámico; en la hipertermia el punto de ajuste no se eleva",
+   "La hipertermia siempre es causada por pirógenos",
+   "En la fiebre no se producen escalofríos",
+   "La hipertermia responde siempre a antipiréticos"
+  ],
+  "c": 0,
+  "e": "En la fiebre los mediadores elevan el punto de ajuste; en la hipertermia la temperatura aumenta sin esa elevación regulada del punto de ajuste."
+ },
+ {
+  "id": 1794000000165,
+  "disc": 3,
+  "q": "¿Qué mediador endógeno puede actuar como pirógeno y contribuir a elevar el punto de ajuste térmico durante la fiebre?",
+  "o": [
+   "Histamina",
+   "Interleucina-1 (IL-1)",
+   "Adrenalina",
+   "Bradicinina"
+  ],
+  "c": 1,
+  "e": "La IL-1 es una citocina pirógena endógena que participa en la vía de prostaglandina E2 y la respuesta febril."
+ },
+ {
+  "id": 1794000000166,
+  "disc": 3,
+  "q": "¿Cómo se clasifica la congelación que alcanza tejidos profundos, incluidos músculo y hueso?",
+  "o": [
+   "Primer grado",
+   "Segundo grado",
+   "Tercer grado",
+   "Cuarto grado"
+  ],
+  "c": 3,
+  "e": "La congelación de cuarto grado alcanza estructuras profundas, como músculo, tendones o hueso, y puede causar daño irreversible."
+ },
+ {
+  "id": 1794000000167,
+  "disc": 3,
+  "q": "En una analogía entre el circuito eléctrico y el sistema circulatorio, ¿a qué se compara la intensidad de corriente (I)?",
+  "o": [
+   "A la presión arterial",
+   "Al flujo de carga por unidad de tiempo, de forma análoga al flujo sanguíneo",
+   "Al diámetro de los vasos",
+   "A la resistencia de la membrana"
+  ],
+  "c": 1,
+  "e": "La intensidad representa la cantidad de carga que atraviesa una sección por unidad de tiempo; la analogía es con el flujo, no con la presión."
+ },
+ {
+  "id": 1794000000168,
+  "disc": 3,
+  "q": "Según los valores de resistividad presentados en el enunciado original, ¿cuál de los tejidos/fluídos tiene la menor resistividad?",
+  "o": [
+   "Tejido adiposo",
+   "Plasma sanguíneo",
+   "Tejido cerebral",
+   "Fluido cerebroespinal"
+  ],
+  "c": 1,
+  "e": "Con los valores indicados en la pregunta, el plasma (~63 Ω·cm) es la opción más baja. Nota: la cifra de resistividad del líquido cefalorraquídeo del enunciado debe revisarse; algunas tablas de referencia sitúan su valor cerca del de la sangre."
+ },
+ {
+  "id": 1794000000169,
+  "disc": 3,
+  "q": "Según la explicación de Alessandro Volta sobre los experimentos con ranas, ¿qué generaba la corriente en el montaje?",
+  "o": [
+   "Una electricidad animal exclusiva del músculo",
+   "El contacto entre dos metales distintos, con el tejido como conductor",
+   "Ondas de radio atmosféricas",
+   "Electricidad estática de la piel"
+  ],
+  "c": 1,
+  "e": "Volta atribuyó la corriente del montaje al contacto de metales diferentes que formaban una pila, con los tejidos como parte del circuito."
+ },
+ {
+  "id": 1794000000170,
+  "disc": 3,
+  "q": "En exposiciones a corriente continua, ¿qué rango aproximado puede asociarse con riesgo de fibrilación ventricular en determinadas condiciones?",
+  "o": [
+   "Más de 10 mA",
+   "Más de 25 mA",
+   "Aproximadamente 300–500 mA",
+   "Más de 50 mA"
+  ],
+  "c": 2,
+  "e": "Como referencia aproximada, fuentes clínicas describen umbrales de varios cientos de mA para corriente continua; no existe un umbral universal y el riesgo depende mucho del trayecto y la duración."
+ },
+ {
+  "id": 1794000000171,
+  "disc": 3,
+  "q": "¿Qué efecto muscular puede producir una corriente alterna de frecuencia de red alrededor de 10 mA o más, según la persona y las condiciones?",
+  "o": [
+   "Solo percepción leve",
+   "Tetanización o contracción sostenida que puede dificultar soltar el contacto",
+   "Fibrilación ventricular inmediata en todos los casos",
+   "Aumento de la fuerza voluntaria"
+  ],
+  "c": 1,
+  "e": "La estimulación eléctrica puede provocar contracción tetánica y pérdida de control muscular; los umbrales varían entre personas y condiciones."
+ },
+ {
+  "id": 1794000000172,
+  "disc": 3,
+  "q": "¿En qué consiste la electroporación celular?",
+  "o": [
+   "Calentamiento del tejido a miles de grados",
+   "Aumento de la permeabilidad de la membrana por formación de poros temporales o permanentes",
+   "Coagulación directa de proteínas plasmáticas",
+   "Formación de vesículas de agua en la epidermis"
+  ],
+  "c": 1,
+  "e": "Campos eléctricos intensos pueden aumentar la permeabilidad de la membrana al generar poros, que pueden ser reversibles o irreversibles."
+ },
+ {
+  "id": 1794000000173,
+  "disc": 3,
+  "q": "¿Qué aplicación de electroterapia utiliza conversión de energía para producir calentamiento profundo?",
+  "o": [
+   "Electroestimulación motora",
+   "Electroanalgesia",
+   "Diatermia",
+   "Electrocauterio"
+  ],
+  "c": 2,
+  "e": "La diatermia utiliza energía electromagnética o eléctrica para generar calentamiento en tejidos."
+ },
+ {
+  "id": 1794000000174,
+  "disc": 3,
+  "q": "¿Qué concluyó J. J. Thomson al estudiar los rayos catódicos?",
+  "o": [
+   "Que eran ondas electromagnéticas no corpusculares",
+   "Que estaban formados por partículas negativas presentes en los átomos",
+   "Que eran protones del núcleo",
+   "Que eran neutrones"
+  ],
+  "c": 1,
+  "e": "Thomson identificó los rayos catódicos como partículas negativas universales, posteriormente llamadas electrones."
+ },
+ {
+  "id": 1794000000175,
+  "disc": 3,
+  "q": "¿Cómo era la relación carga/masa de las partículas de los rayos catódicos comparada con la del ion hidrógeno?",
+  "o": [
+   "Igual",
+   "Más de mil veces inferior",
+   "Más de mil veces superior",
+   "Cero"
+  ],
+  "c": 2,
+  "e": "La relación carga/masa del electrón es mucho mayor que la del ion hidrógeno, aproximadamente 1.836 veces."
+ },
+ {
+  "id": 1794000000176,
+  "disc": 3,
+  "q": "¿Quién descubrió los rayos X en 1895?",
+  "o": [
+   "J. J. Thomson",
+   "Wilhelm Conrad Röntgen",
+   "Pierre y Marie Curie",
+   "Ernest Rutherford"
+  ],
+  "c": 1,
+  "e": "Wilhelm Conrad Röntgen descubrió los rayos X en 1895 mientras investigaba tubos de descarga."
+ },
+ {
+  "id": 1794000000177,
+  "disc": 3,
+  "q": "¿Cuál es el orden creciente de atenuación de las cinco densidades radiográficas clásicas?",
+  "o": [
+   "Agua, aire, grasa, calcio, metal",
+   "Aire, grasa, agua/tejido blando, hueso/calcio, metal",
+   "Metal, calcio, agua, grasa, aire",
+   "Grasa, aire, calcio, agua, metal"
+  ],
+  "c": 1,
+  "e": "La atenuación aumenta, en general, de aire a grasa, tejido blando/agua, hueso y metal."
+ },
+ {
+  "id": 1794000000178,
+  "disc": 3,
+  "q": "En radiología convencional, ¿qué afirmación sobre la energía del haz y el contraste es más correcta?",
+  "o": [
+   "Una energía más baja suele aumentar el contraste de sujeto, aunque reduce la penetración",
+   "Una energía más alta siempre aumenta el contraste",
+   "La energía no influye en el contraste",
+   "300 keV es siempre la energía óptima para cualquier radiografía"
+  ],
+  "c": 0,
+  "e": "En términos generales, reducir la energía efectiva puede aumentar el contraste de sujeto, pero la técnica depende de región, espesor, kVp y protocolo. No existe un valor único universal de 60 keV."
+ },
+ {
+  "id": 1794000000179,
+  "disc": 3,
+  "q": "¿Por qué algunos compuestos sulfhidrilo pueden actuar como radioprotectores?",
+  "o": [
+   "Porque inhiben la síntesis de colágeno",
+   "Porque captan radicales libres y reducen parte del daño indirecto",
+   "Porque bloquean electrones dentro del núcleo",
+   "Porque convierten fotones en luz visible"
+  ],
+  "c": 1,
+  "e": "Los grupos sulfhidrilo pueden neutralizar radicales libres y reducir parte del daño químico indirecto causado por radiación."
+ },
+ {
+  "id": 1794000000180,
+  "disc": 3,
+  "q": "¿Cuál puede ser el período de latencia de una catarata radioinducida como efecto tardío?",
+  "o": [
+   "Dos semanas siempre",
+   "Tres semanas siempre",
+   "Menos de un año en todos los casos",
+   "Puede superar un año y variar según dosis y condiciones"
+  ],
+  "c": 3,
+  "e": "La catarata es un efecto tardío; la latencia puede ser de años y depende de la dosis y otros factores."
+ },
+ {
+  "id": 1794000000181,
+  "disc": 3,
+  "q": "¿Cuál es el rango aproximado de frecuencias audibles para un oído humano normal joven?",
+  "o": [
+   "0–10 Hz",
+   "20 Hz–20.000 Hz",
+   "50.000–100.000 Hz",
+   "100 kHz–1 MHz"
+  ],
+  "c": 1,
+  "e": "El intervalo típico de audición humana se aproxima a 20 Hz–20 kHz y disminuye con la edad."
+ },
+ {
+  "id": 1794000000182,
+  "disc": 3,
+  "q": "¿Con qué magnitud de una onda sonora se relaciona directamente la intensidad?",
+  "o": [
+   "Frecuencia",
+   "Amplitud",
+   "Velocidad en el vacío",
+   "Período"
+  ],
+  "c": 1,
+  "e": "Para un medio y frecuencia determinados, la intensidad es proporcional al cuadrado de la amplitud."
+ },
+ {
+  "id": 1794000000183,
+  "disc": 3,
+  "q": "¿Qué cualidad permite diferenciar dos sonidos con igual frecuencia e intensidad emitidos por instrumentos distintos?",
+  "o": [
+   "Tono",
+   "Timbre",
+   "Resonancia",
+   "Umbral auditivo"
+  ],
+  "c": 1,
+  "e": "El timbre depende de la composición armónica y de la forma de onda, y permite reconocer distintas fuentes."
+ },
+ {
+  "id": 1794000000184,
+  "disc": 3,
+  "q": "¿Qué huesecillo transmite directamente las vibraciones a la ventana oval?",
+  "o": [
+   "Martillo",
+   "Yunque",
+   "Estribo",
+   "Apófisis mastoides"
+  ],
+  "c": 2,
+  "e": "La platina del estribo se apoya en la ventana oval y transmite allí las vibraciones."
+ },
+ {
+  "id": 1794000000185,
+  "disc": 3,
+  "q": "¿Qué región de la membrana basilar vibra en respuesta a las frecuencias altas?",
+  "o": [
+   "Porción basal",
+   "Porción medial",
+   "Ápice o helicotrema",
+   "Ventana redonda"
+  ],
+  "c": 0,
+  "e": "Las frecuencias altas producen su máximo desplazamiento en la base de la cóclea, cerca del estribo."
+ },
+ {
+  "id": 1794000000186,
+  "disc": 3,
+  "q": "¿Qué fenómeno permite generar potenciales eléctricos al deformar ciertos cristales, como el cuarzo?",
+  "o": [
+   "Magnetostricción",
+   "Piezoelectricidad",
+   "Efecto Joule",
+   "Difracción acústica"
+  ],
+  "c": 1,
+  "e": "El efecto piezoeléctrico relaciona deformación mecánica y cargas/potenciales eléctricos en ciertos materiales."
+ },
+ {
+  "id": 1794000000187,
+  "disc": 3,
+  "q": "¿Cómo se denomina el cambio de longitud de una varilla ferromagnética al someterla a un campo magnético?",
+  "o": [
+   "Microfonía coclear",
+   "Magnetostricción",
+   "Resonancia armónica",
+   "Atenuación exponencial"
+  ],
+  "c": 1,
+  "e": "La magnetostricción es la deformación de un material ferromagnético bajo la acción de un campo magnético."
+ },
+ {
+  "id": 1794000000188,
+  "disc": 3,
+  "q": "¿Qué ley describe la relación inversa entre presión y volumen de un gas a temperatura constante?",
+  "o": [
+   "Ley de Coulomb",
+   "Ley de Boyle",
+   "Ley de Ohm",
+   "Principio de Blackman-Pütter"
+  ],
+  "c": 1,
+  "e": "La Ley de Boyle establece que P × V permanece constante para una cantidad fija de gas a temperatura constante."
+ },
+ {
+  "id": 1794000000189,
+  "disc": 3,
+  "q": "¿Cuál es el volumen corriente aproximado de un adulto en reposo?",
+  "o": [
+   "~150 ml",
+   "~350 ml",
+   "~500–600 ml",
+   "~1.200 ml"
+  ],
+  "c": 2,
+  "e": "En un adulto promedio, el volumen corriente suele ser cercano a 500 ml por respiración; varía con tamaño corporal y condiciones."
+ },
+ {
+  "id": 1794000000190,
+  "disc": 3,
+  "q": "¿Cuál es el volumen aproximado del espacio muerto anatómico en un adulto?",
+  "o": [
+   "~50 ml",
+   "~150 ml",
+   "~350 ml",
+   "~500 ml"
+  ],
+  "c": 1,
+  "e": "El espacio muerto anatómico es el aire de las vías de conducción que no participa directamente en el intercambio gaseoso; suele aproximarse a 150 ml."
+ },
+ {
+  "id": 1794000000191,
+  "disc": 3,
+  "q": "¿Cuál es el principal componente lipídico del surfactante pulmonar?",
+  "o": [
+   "Esfingomielina",
+   "Dipalmitoilfosfatidilcolina (DPPC)",
+   "Colesterol libre",
+   "Fosfatidilserina"
+  ],
+  "c": 1,
+  "e": "La DPPC es el principal fosfolípido tensioactivo del surfactante y reduce la tensión superficial alveolar."
+ },
+ {
+  "id": 1794000000192,
+  "disc": 3,
+  "q": "¿Cómo se define la distensibilidad pulmonar (compliance)?",
+  "o": [
+   "Volumen de espacio muerto dividido por frecuencia respiratoria",
+   "Cambio de volumen por unidad de cambio de presión (ΔV/ΔP)",
+   "Fuerza ejercida solo por el colágeno",
+   "Gradiente entre arteria pulmonar y alvéolo"
+  ],
+  "c": 1,
+  "e": "La compliance expresa cuánto cambia el volumen pulmonar ante un cambio de presión transpulmonar."
+ },
+ {
+  "id": 1794000000193,
+  "disc": 3,
+  "q": "En el asma no complicada, ¿dónde se encuentra principalmente el problema fisiológico?",
+  "o": [
+   "En una reducción drástica de la compliance por fibrosis alveolar",
+   "En el aumento de resistencia de las vías aéreas; la compliance estática puede ser normal",
+   "En la desaparición completa de la distensibilidad",
+   "En la ausencia total de ventilación inspiratoria"
+  ],
+  "c": 1,
+  "e": "El asma es principalmente obstructiva por aumento variable de la resistencia de las vías aéreas; la compliance estática suele ser normal, aunque puede alterarse la mecánica durante atrapamiento aéreo."
+ },
+ {
+  "id": 1794000000194,
+  "disc": 3,
+  "q": "¿Qué físico formuló las ecuaciones clásicas que unifican electricidad y magnetismo?",
+  "o": [
+   "Wilhelm Röntgen",
+   "James Clerk Maxwell",
+   "J. J. Thomson",
+   "Luigi Galvani"
+  ],
+  "c": 1,
+  "e": "James Clerk Maxwell formuló las ecuaciones que describen los campos eléctricos y magnéticos y predicen las ondas electromagnéticas."
+ },
+ {
+  "id": 1794000000195,
+  "disc": 3,
+  "q": "¿Qué región del espectro electromagnético tiene la mayor frecuencia y la menor longitud de onda?",
+  "o": [
+   "Ondas de radio",
+   "Infrarrojo",
+   "Luz visible",
+   "Rayos gamma"
+  ],
+  "c": 3,
+  "e": "Los rayos gamma ocupan el extremo de mayor frecuencia y energía del espectro electromagnético."
+ },
+ {
+  "id": 1794000000196,
+  "disc": 3,
+  "q": "¿A qué velocidad se propagan las ondas electromagnéticas en el vacío?",
+  "o": [
+   "331 m/s",
+   "1.500 m/s",
+   "Aproximadamente 300.000 km/s",
+   "100 km/s"
+  ],
+  "c": 2,
+  "e": "En el vacío, todas las ondas electromagnéticas se propagan a la velocidad de la luz."
+ },
+ {
+  "id": 1794000000197,
+  "disc": 3,
+  "q": "¿Qué núcleos atómicos del cuerpo interactúan principalmente con el campo magnético estático en la resonancia magnética clínica?",
+  "o": [
+   "Electrones del calcio",
+   "Protones de hidrógeno",
+   "Neutrones de carbono-12",
+   "Fotones de sodio"
+  ],
+  "c": 1,
+  "e": "La RM clínica aprovecha principalmente la señal de los protones de hidrógeno abundantes en agua y grasa."
+ },
+ {
+  "id": 1794000000198,
+  "disc": 3,
+  "q": "¿Qué mide el tiempo de relajación T1 en resonancia magnética?",
+  "o": [
+   "La recuperación de la magnetización longitudinal",
+   "La pérdida de sincronización transversal",
+   "La velocidad de emisión de rayos catódicos",
+   "La atenuación fotónica del hueso"
+  ],
+  "c": 0,
+  "e": "T1 describe la recuperación de la magnetización longitudinal hacia el equilibrio tras el pulso de radiofrecuencia."
+ },
+ {
+  "id": 1794000000199,
+  "disc": 3,
+  "q": "¿Cuál es una ventaja importante de la resonancia magnética frente a la tomografía computarizada?",
+  "o": [
+   "Detecta siempre mejor las microcalcificaciones",
+   "Ofrece gran contraste de tejidos blandos y no utiliza radiación ionizante",
+   "Siempre es más rápida",
+   "Tiene siempre menor costo y mayor disponibilidad"
+  ],
+  "c": 1,
+  "e": "La RM ofrece excelente contraste de tejidos blandos y no emplea radiación ionizante; la TC puede ser más rápida y útil para otras indicaciones."
+ }
+]
