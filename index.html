@@ -62,6 +62,7 @@ input:focus,select:focus,textarea:focus{box-shadow:0 0 0 3px rgba(79,124,255,.3)
 .day i{display:inline-block;width:9px;height:9px;border-radius:50%;margin:5px 3px 0 0}
 .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}.cd{font-weight:800;font-size:15px;margin-left:auto;padding-left:10px}
 .mh{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.opt.sel{background:rgba(79,124,255,.16);border-color:var(--ac)}.opt.sel b{background:var(--ac);color:#fff}.btn:disabled{opacity:.45;pointer-events:none}
 @media(max-width:860px){
 .app{grid-template-columns:1fr;padding:12px;padding-bottom:0}
 aside{position:fixed;z-index:9;left:10px;right:10px;bottom:max(10px,env(safe-area-inset-bottom));top:auto;height:auto;flex-direction:row;padding:7px;border-radius:24px;gap:2px}
@@ -72,7 +73,7 @@ nav button{flex:1;flex-direction:column;gap:2px;padding:8px 2px;font-size:10.5px
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style></head><body><div class="app">
 <aside class="gl"><div class="logo"><i>✚</i>MedHub</div>
-<nav><button data-v="home"><span>🏠</span>Início</button><button data-v="disc"><span>📚</span>Disciplinas</button><button data-v="q"><span>🧠</span>Questões</button><button data-v="cal"><span>🗓️</span>Calendário</button></nav>
+<nav><button data-v="home"><span>🏠</span>Início</button><button data-v="disc"><span>📚</span>Disciplinas</button><button data-v="q"><span>🧠</span>Questões</button><button data-v="cal"><span>🗓️</span>Calendário</button><button data-v="sim"><span>🎓</span>Simulador</button></nav>
 <div class="bk"><button class="btn g sm" data-a="ex">⬇ Backup</button><button class="btn g sm" data-a="im">⬆ Restaurar</button></div></aside>
 <main id="main"></main></div><input type="file" id="imp" accept=".json" hidden>
 <script>
@@ -133,10 +134,74 @@ pdl:async d=>{if(confirm("Remover este PDF?")){await tx("readwrite",s=>s.delete(
 pm:()=>{cm=new Date(cm.getFullYear(),cm.getMonth()-1,1);render()},nm:()=>{cm=new Date(cm.getFullYear(),cm.getMonth()+1,1);render()},
 day:d=>{$("#edt").value=d.d;$("#et").focus()},de:d=>{S.ev=S.ev.filter(x=>x.id!=d.i);save();render()},
 ae:()=>{if(!v("et")||!v("edt"))return alert("Informe o título e a data.");S.ev.push({id:Date.now(),t:v("et"),disc:$("#ed").value,date:v("edt"),type:+$("#ety").value});save();render()},
-ex:()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(S)],{type:"application/json"}));a.download="medhub-backup-"+iso(td)+".json";a.click()},im:()=>$("#imp").click(),eq:()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(allQ().sort((x,y)=>x.disc-y.disc||x.id-y.id),null,1)],{type:"application/json"}));a.download="questoes.json";a.click()}};
+ex:()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(S)],{type:"application/json"}));a.download="medhub-backup-"+iso(td)+".json";a.click()},im:()=>$("#imp").click(),eq:()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(allQ().map(q=>uo(q)==null?q:{...q,u:uo(q)}).sort((x,y)=>x.disc-y.disc||x.id-y.id),null,1)],{type:"application/json"}));a.download="questoes.json";a.click()}};
 document.addEventListener("click",e=>{const n=e.target.closest("nav button");if(n){view=n.dataset.v;open=null;render();return}const b=e.target.closest("[data-a]");if(!b||!A[b.dataset.a])return;e.preventDefault();A[b.dataset.a](b.dataset,e)});
 document.addEventListener("change",async e=>{const t=e.target;if(t.id=="qf"){qf=t.value;cur=null;ans=null;render()}
 if(t.id=="pf"){const d=+$("#pd").value;for(const f of t.files)await tx("readwrite",s=>s.put({id:Date.now()+Math.random(),disc:d,name:f.name,blob:f}));lp()}
 if(t.id=="imp"){const f=t.files[0];if(!f)return;try{const j=JSON.parse(await f.text());if(!j.tp||!j.q)throw 0;S=j;save();render();alert("Backup restaurado!")}catch(x){alert("Arquivo de backup inválido.")}t.value=""}});
+/* ===== SIMULADOR DE HABILITACIÓN ===== */
+let X=null,sm="home",su=0,ob=null,ot="p",oi=0,rb="d";
+const SM=()=>S.sim||(S.sim={cfg:{0:{u:["Tórax","Cuello","Cabeza","Abdomen"]}},qu:{},st:{}});
+const CF=i=>{const c=SM().cfg[i]||{u:[]},n=c.u.length,ft=c.ft||40,s=(c.fd||[]).reduce((a,b)=>a+b,0);
+return{u:c.u,th:c.th||60,qpp:c.qpp||20,ft,fd:c.fd&&c.fd.length==n&&s==ft?c.fd:c.u.map((_,k)=>Math.floor(ft/n)+(k<ft%n?1:0))}};
+const uo=q=>SM().qu[q.id]??q.u,UP=(d,k)=>allQ().filter(q=>q.disc==d&&uo(q)===k),un=d=>allQ().filter(q=>q.disc==d&&uo(q)==null);
+const cy=d=>(SM().st[d]||{}).cy,hs=d=>(SM().st[d]||{}).h||[];
+const shuf=a=>{a=[...a];for(let i=a.length;i>1;){const j=Math.random()*i--|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const snap=q=>({id:q.id,q:q.q,o:q.o,c:q.c,e:q.e||""});
+const grade=p=>p.q.reduce((a,q,i)=>a+(p.a[i]===q.c?1:0),0);
+const tot=c=>{const f=c.ps.filter(p=>p.f);return{ok:f.reduce((a,p)=>a+p.c,0),n:f.reduce((a,p)=>a+p.q.length,0)}};
+const done=c=>c.ps.filter(p=>p.f).length==c.cf.u.length;
+const pass=c=>{const t=tot(c);return done(c)&&t.n>0&&t.ok*100>=c.cf.th*t.n};
+const pc=(a,b)=>String(b?Math.round(a*1000/b)/10:0).replace(".",",");
+const lack=(d,r)=>r.map(([k,n])=>[k,n-UP(d,k).length]).filter(x=>x[1]>0);
+const lm=(u,l)=>"Faltan preguntas cargadas: "+l.map(([k,n])=>u[k]+" ("+n+")").join(", ")+". No se puede iniciar una prueba incompleta.";
+const stt=d=>{const F=CF(d),c=cy(d);if(!F.u.length)return["Sin configurar","#94a3b8"];if(!c)return["No iniciado","#94a3b8"];if(c.fin&&c.fin.f)return["Examen Final completado","#4f7cff"];if(!done(c))return["En progreso","#f59e0b"];return pass(c)?["Habilitado para el Examen Final","#16b981"]:["No habilitado para el Examen Final","#f0506e"]};
+const stP=i=>{const c=cy(X),k=c.cf;if(i>0&&!(c.ps[i-1]&&c.ps[i-1].f))return alert("Debes completar la prueba anterior.");
+if(!c.ps[i]){const l=lack(X,[[i,k.qpp]]);if(l.length)return alert(lm(k.u,l));c.ps[i]={k:i,q:shuf(UP(X,i)).slice(0,k.qpp).map(snap),a:[],p:0,f:0,c:0}}
+ob=c.ps[i];ot="p";oi=i;sm="run";save();render()};
+Object.assign(A,{
+od:d=>{X=+d.i;sm="d";render()},oh:()=>{X=null;sm="home";render()},
+ns:()=>{const F=CF(X);if(!F.u.length)return alert("Configura primero las unidades de la disciplina.");const l=lack(X,F.u.map((_,k)=>[k,F.qpp]));if(l.length)return alert(lm(F.u,l));
+const s=SM().st[X]||(SM().st[X]={h:[]});if(s.cy&&s.cy.ps.some(p=>p.f))s.h.push(s.cy);s.cy={cf:F,ps:[],fin:null,t:Date.now()};stP(0)},
+cn:()=>{const c=cy(X),i=c.ps.findIndex(p=>!p.f);stP(i<0?c.ps.length:i)},ap:()=>stP(oi+1),
+sa:d=>{ob.a[ob.p]=+d.i;save();render()},
+sv:d=>{ob.p=Math.max(0,Math.min(ob.q.length-1,ob.p+Number(d.n)));save();render()},
+fn:()=>{const m=ob.q.filter((_,i)=>ob.a[i]!=null).length;if(m<ob.q.length)return alert("Faltan "+(ob.q.length-m)+" preguntas por responder.");ob.c=grade(ob);ob.f=1;save();sm=ot=="f"?"fres":"pres";render()},
+fz:()=>{const c=cy(X);if(!c||!pass(c))return alert("Examen Final bloqueado: necesitas al menos "+(c?c.cf.th:60)+"% en las pruebas parciales.");
+if(c.fin&&c.fin.f){ob=c.fin;sm="fres";return render()}
+if(!c.fin){const l=lack(X,c.cf.fd.map((n,k)=>[k,n]));if(l.length)return alert(lm(c.cf.u,l));c.fin={q:shuf(c.cf.fd.flatMap((n,k)=>shuf(UP(X,k)).slice(0,n))).map(snap),a:[],p:0,f:0,c:0}}
+ob=c.fin;ot="f";sm="run";save();render()},
+sg:()=>{sm="gen";render()},scf:()=>{sm="cfg";render()},ub:d=>{su=+d.k;sm="bk";render()},
+rv:()=>{rb=sm;sm="rev";render()},rbk:()=>{sm=rb;render()},fv:()=>{ob=cy(X).fin;sm="fres";render()},
+asg:()=>{const k=+$("#au").value;un(X).forEach(q=>SM().qu[q.id]=k);save();render()},
+qd:d=>{if(SH.some(q=>q.id==d.i))return alert("Esta pregunta viene de GitHub. Para quitarla, edita questoes.json.");S.q=S.q.filter(q=>q.id!=d.i);delete SM().qu[d.i];save();render()},
+qa:()=>{const r=[0,1,2,3].map(i=>v("no"+i)),c=+$("#nc").value;if(!v("nq")||r.filter(Boolean).length<2||!r[c])return alert("Completa el enunciado, al menos 2 alternativas y marca una correcta que no esté vacía.");
+S.q.push({id:Date.now(),disc:X,u:su,q:v("nq"),o:r.filter(Boolean),c:r.slice(0,c).filter(Boolean).length,e:v("ne")});save();render()},
+cs:()=>{const u=v("cu").split(",").map(x=>x.trim()).filter(Boolean),th=+v("cth"),qpp=+v("cq"),ft=+v("cft"),fd=v("cfd")?v("cfd").split(",").map(Number):[];
+if(!u.length||new Set(u).size<u.length||!(th>0&&th<=100)||!(qpp>0)||!(ft>0))return alert("Revisa los datos: unidades distintas, porcentaje entre 1 y 100 y cantidades mayores que cero.");
+if(fd.length&&(fd.length!=u.length||fd.some(x=>!(x>=0))||fd.reduce((a,b)=>a+b,0)!=ft))return alert("La distribución debe tener un valor por unidad y sumar "+ft+" (o déjala vacía para repartir en partes iguales).");
+SM().cfg[X]={u,th,qpp,ft,fd};save();sm="d";render()}});
+const EI=["🫁","🧣","🧠","🫃","📗","📘","📙","📕"];
+const sb=(t,a,g)=>`<button class="btn${g?" g":""}" data-a=${a}>${t}</button>`,bd=()=>`<button class="btn g" data-a=od data-i=${X}>← Volver</button>`;
+const SC=o=>`<div class=grid>${[["Preguntas",o.q.length],["Correctas",o.c],["Incorrectas",o.q.length-o.c],["Aprovechamiento",pc(o.c,o.q.length)+"%"],["Nota",o.c+"/"+o.q.length]].map(s=>`<div class="gl card"><p class=sub style="margin:0 0 4px">${s[0]}</p><div class=big style="font-size:24px">${s[1]}</div></div>`).join("")}</div>`;
+const H=()=>`<h1>Simulador de Habilitación</h1><p class=sub>Practica las pruebas parciales y el Examen Final como en la facultad.</p><div class=grid>${D.map((d,i)=>{const s=stt(i);return `<div class="gl card hov" data-a=od data-i=${i} style="--c:${d[2]}"><div class=ic>${d[1]}</div><h3>${d[0]}</h3><span class=chip style="background:${s[1]}22;color:${s[1]}">${s[0]}</span></div>`}).join("")}</div><div class=add><button class="btn g sm" data-a=ex>⬇ Exportar datos</button><button class="btn g sm" data-a=im>⬆ Importar datos</button></div><p class=sub>Los datos se guardan solo en este dispositivo. Exporta un respaldo para no perderlos.</p>`;
+const DS=()=>{const F=CF(X),c=cy(X),n=F.u.length,s=stt(X);let b;
+if(!n)b=sb("Configurar unidades","scf");else if(!c)b=sb("INICIAR SIMULADOR","ns");
+else if(!done(c)){const i=c.ps.findIndex(p=>!p.f);b=sb("CONTINUAR · P"+((i<0?c.ps.length:i)+1),"cn")}
+else{b=sb("Resultado General","sg",1);if(pass(c))b+=" "+(!c.fin?sb("INICIAR EXAMEN FINAL","fz"):c.fin.f?sb("Ver Examen Final","fv",1):sb("CONTINUAR EXAMEN FINAL","fz"));b+=" "+sb("Nuevo ciclo","ns",1)}
+return `${sb("← Disciplinas","oh",1)}<div class="gl card" style="margin-top:14px"><h2>${D[X][1]} ${D[X][0]}</h2><span class=chip style="background:${s[1]}22;color:${s[1]}">${s[0]}</span><p class=sub>${n?`${n} pruebas parciales de ${F.qpp} preguntas · Examen Final de ${F.ft} preguntas · mínimo ${F.th}%`:"Define las unidades de contenido de esta disciplina."}</p><div class=add style="flex-wrap:wrap">${b}${n?" "+sb("⚙ Configuración","scf",1):""}</div></div>`
++(n&&un(X).length?`<div class="gl card"><h3>${un(X).length} preguntas sin unidad</h3><div class=bar2><select id=au>${F.u.map((u,k)=>`<option value=${k}>${esc(u)}</option>`).join("")}</select><button class=btn data-a=asg>Asignar todas</button></div></div>`:"")
++(n?`<div class=grid>${F.u.map((u,k)=>`<div class="gl card hov" data-a=ub data-k=${k} style="--c:${D[X][2]}"><div class=ic>${EI[k%8]}</div><h3>${esc(u)}</h3><span class=chip>P${k+1}</span><p class=sub style="margin:6px 0 0">${UP(X,k).length} preguntas · final: ${F.fd[k]}</p></div>`).join("")}</div>`:"")
++(hs(X).length?`<div class="gl card"><h3>Historial de ciclos</h3>${hs(X).slice().reverse().map(h=>{const t=tot(h);return `<div class=tp><span>${new Date(h.t).toLocaleDateString("es")} · ${pc(t.ok,t.n)}% · ${pass(h)?"Habilitado":"No habilitado"}</span><b>${h.fin&&h.fin.f?"Final: "+pc(h.fin.c,h.fin.q.length)+"%":"Sin final"}</b></div>`}).join("")}</div>`:"")};
+const RN=()=>{const n=ob.q.length,q=ob.q[ob.p],a=ob.a[ob.p],k=ob.q.filter((_,i)=>ob.a[i]!=null).length;
+return `<div class="gl card"><div class=row><b>${ot=="f"?"Examen Final":`Prueba Parcial ${oi+1} (P${oi+1}) · ${esc(cy(X).cf.u[oi])}`}</b><span>Pregunta ${ob.p+1} de ${n}</span></div>${bar(Math.round((ob.p+1)/n*100))}<h3 class=qq>${esc(q.q)}</h3>${q.o.map((o,i)=>`<button class="opt${a===i?" sel":""}" data-a=sa data-i=${i}><b>${"ABCDE"[i]}</b>${esc(o)}</button>`).join("")}<div class=add style="justify-content:space-between"><button class="btn g" data-a=sv data-n=-1 ${ob.p?"":"disabled"}>Anterior</button><span class=sub style="margin:0">Respondidas: ${k}/${n}</span>${ob.p<n-1?`<button class=btn data-a=sv data-n=1>Siguiente</button>`:`<button class=btn data-a=fn>Finalizar</button>`}</div></div>`};
+const PR=()=>{const c=cy(X);return `<h2>P${oi+1} — ${esc(c.cf.u[oi])}</h2>${SC(ob)}<div class=add style="flex-wrap:wrap">${sb("Revisar respuestas","rv",1)}${oi+1>=c.cf.u.length?sb("Ver Resultado General","sg"):sb("AVANZAR A P"+(oi+2),"ap")}</div>`};
+const FR=()=>`<h2>Examen Final — ${D[X][0]}</h2>${SC(ob)}<p class=sub>La habilitación y el desempeño en el Examen Final son resultados separados.</p><div class=add style="flex-wrap:wrap">${sb("Revisar respuestas","rv",1)}${bd()}</div>`;
+const RV=()=>`<button class="btn g" data-a=rbk>← Volver</button><div style="margin-top:14px">${ob.q.map((q,i)=>`<div class="gl card"><p class=sub style="margin:0">Pregunta ${i+1}</p><h3>${esc(q.q)}</h3>${q.o.map((o,j)=>`<div class="opt${j==q.c?" ok":j==ob.a[i]?" bad":""}"><b>${"ABCDE"[j]}</b>${esc(o)}</div>`).join("")}${q.e?`<div class=fb>${esc(q.e)}</div>`:""}</div>`).join("")}</div>`;
+const GN=()=>{const c=cy(X),t=tot(c),F=c.cf;return `<h2>Resultado General — ${D[X][0]}</h2><div class="gl card">${c.ps.map((p,i)=>`<div class=tp><span>P${i+1} — ${esc(F.u[i])}</span><b>${p.c}/${p.q.length}</b></div>`).join("")}<div class=tp><b>Total</b><b>${t.ok}/${t.n}</b></div><div class=tp><span>Aprovechamiento general</span><b>${pc(t.ok,t.n)}%</b></div><div class=tp><span>Nota mínima requerida</span><b>${F.th}%</b></div></div>`
++(pass(c)?`<div class="gl card" style="text-align:center;border:2px solid var(--ok)"><h2>¡FELICIDADES!</h2><p style="margin-bottom:14px"><b>ESTÁS HABILITADO PARA RENDIR EL EXAMEN FINAL.</b></p>${c.fin&&c.fin.f?sb("Ver Examen Final","fv"):sb(c.fin?"CONTINUAR EXAMEN FINAL":"INICIAR EXAMEN FINAL","fz")}</div>`:`<div class="gl card" style="text-align:center;border:2px solid var(--bad)"><h2>NO HAS ALCANZADO LA PUNTUACIÓN NECESARIA.</h2><p style="margin-bottom:14px">Obtuviste ${pc(t.ok,t.n)}%. Necesitas al menos ${F.th}% para habilitar el Examen Final, que permanece bloqueado.</p>${sb("Nuevo ciclo","ns")}</div>`)+`<div class=add>${bd()}</div>`};
+const CG=()=>{const F=CF(X);return `${bd()}<div class="gl card" style="margin-top:14px"><h2>Configuración · ${D[X][0]}</h2><div class=frm><label class=sub>Unidades (una por prueba parcial, separadas por coma)</label><input id=cu value="${esc(F.u.join(", "))}" placeholder="Ej.: Tórax, Cuello, Cabeza, Abdomen"><div class=r><div><label class=sub>Mínimo para habilitar (%)</label><input id=cth type=number value=${F.th}></div><div><label class=sub>Preguntas por parcial</label><input id=cq type=number value=${F.qpp}></div></div><div class=r><div><label class=sub>Preguntas del Examen Final</label><input id=cft type=number value=${F.ft}></div><div><label class=sub>Distribución del final (vacío = partes iguales)</label><input id=cfd value="${F.u.length?F.fd.join(", "):""}"></div></div><button class=btn data-a=cs>Guardar configuración</button></div><p class=sub>No cambies el orden de las unidades: las preguntas se vinculan por posición.</p></div>`};
+const BK=()=>{const F=CF(X),L=UP(X,su);return `${bd()}<div class="gl card" style="margin-top:14px"><h2>${D[X][0]} · ${esc(F.u[su])}</h2><p class=sub>P${su+1} · ${L.length} preguntas</p>${L.map(q=>`<div class=tp><span>${esc(q.q.length>90?q.q.slice(0,90)+"…":q.q)}</span><button class=x data-a=qd data-i=${q.id}>✕</button></div>`).join("")||"<p class=sub>Aún no hay preguntas en esta unidad.</p>"}</div><div class="gl card"><h3>Nueva pregunta</h3><div class=frm><textarea id=nq rows=3 placeholder="Enunciado"></textarea>${"ABCD".split("").map((l,i)=>`<input id=no${i} placeholder="Alternativa ${l}">`).join("")}<div class=r><select id=nc>${"ABCD".split("").map((l,i)=>`<option value=${i}>Correcta: ${l}</option>`).join("")}</select><input id=ne placeholder="Explicación (opcional)"></div><button class=btn data-a=qa>Guardar pregunta</button></div></div>`};
+V.sim=()=>{if(X==null)return H();if((sm=="gen"&&!(cy(X)&&done(cy(X))))||(sm=="run"&&ot=="f"&&!pass(cy(X)))||(["run","pres","fres","rev"].includes(sm)&&!ob))sm="d";return({d:DS,run:RN,pres:PR,fres:FR,rev:RV,gen:GN,cfg:CG,bk:BK}[sm]||DS)()};
 render();loadSh();if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script></body></html>
